@@ -1,5 +1,14 @@
 # 更新说明
 
+## 2026-10-31（离线地图中国区域修正）
+
+- `public/data/world_reference.geojson`：以天地图 2026 年 10 月全国省级 GeoJSON 合并中国区域，保留 10 段南海断续线；全球其他区域使用原 Natural Earth 1:5000 万数据并裁去与中国区域重叠的部分。站点坐标和业务数据未变。用户确认已取得数据使用许可。
+- `src/services/globeVisuals.ts`、`src/components/map/SpatialDetailMap.vue`：在地球与详情图中绘制开放的南海断续线，避免误闭合为面；`src/views/MapView.vue` 与 `README.md` 同步注明天地图和 Natural Earth 的来源。
+- `scripts/prepare-world-reference.py`：以两份原始 GeoJSON 的固定 SHA-256 指纹重建派生底图，使用 Python 和 Shapely 2；`scripts/check-map-geography.mjs` 检查藏南、台湾、阿克赛钦、永兴岛、钓鱼岛、相邻国家、断续线及数据指纹。
+- 原始天地图数据文件指纹为 `3af8294f9ad61cc2bf84c1bb7e4bbf86a6336c68d754b699a0e6ddc33ef81486`。组合成果是学习用派生地图，不直接沿用原图审图号；公开使用应核实对应授权和审图要求。
+- 原目录本地构建、坐标及几何检查通过；浏览器预览检查了地球旋转缩放、站点选择和详情地图。单文件构建及数据指纹检查通过，浏览器安全策略阻止 `file://` 直接打开，因此未完成单文件运行实测。
+- 基于远端根目录结构的隔离工作区重新安装依赖，`npm run build`、关键坐标、地图布局 11 项和详情布局 10 项均通过；原始文件重建结果使用 LF 字节换行，避免 Windows 与 Linux 数据指纹不一致。该版本的本机浏览器地球旋转与缩放检查通过，预览服务已关闭。
+
 ## 2026-10-31（整理仓库目录）
 
 - 将前端源码、配置、脚本和依赖锁文件移到仓库根目录；将六份运行数据和世界地图底图集中到 `public/data/`，简化仓库结构。

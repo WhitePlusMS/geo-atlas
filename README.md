@@ -77,6 +77,8 @@ npm run build
 
 `public/data/world_reference.geojson` 是世界地图底图，`.checksums.json` 保存六份数据的 SHA-256 校验和。七份数据文件和校验和均保留在仓库中；`.gitattributes` 保持原始字节，使 Windows 和 Linux 的校验结果一致。
 
+离线底图的中国区域和南海断续线来自天地图 2026 年 10 月省级行政区划数据，其他全球区域来自 Natural Earth 1:5000 万数据；合并时裁去重叠区域。该图为学习用途的派生参考地图，不能直接沿用原始地图审图号，公开展示前应核实使用授权和审图要求。数据来源及原文件指纹保存在 GeoJSON 的 `source` 字段中。使用 Python 和 Shapely 2 可通过 `scripts/prepare-world-reference.py`，配合对应原始文件及指纹重建底图。
+
 在仓库根目录可以单独执行：
 
 ```bash
@@ -84,6 +86,7 @@ npm run data:checksums # 确认数据变更后更新校验和
 npm run data:verify  # 校验数据、来源和校验和
 npm run map:check    # 检查地图标记布局
 npm run pages:check  # 检查空间视图和模型
+node scripts/check-map-geography.mjs # 检查离线地图关键位置与南海断续线
 ```
 
 `map:check` 和 `pages:check` 直接读取仓库内的数据。修改数据后，应重新核对来源及审核状态，确认内容无误后运行 `npm run data:checksums`，并将数据和更新后的校验和一起提交；正常构建只验证校验和，不会自动覆盖它。

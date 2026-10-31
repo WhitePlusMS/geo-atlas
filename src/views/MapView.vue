@@ -53,7 +53,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', escapePresentation))
         <button type="button" class="primary-btn" @click="router.push({ path: `/sites/${selected.properties.site_id}`, query: filterQuery })">查看画像、地图与证据 <ArrowRight :size="16" aria-hidden="true" /></button>
       </aside>
       <MapLegend v-model="activeService" :sites="matchingOtherFilters" />
-      <footer class="map-sources"><span>定位依据：GIS {{ data.meta?.review.gis_snapshot_traceable_count }} · 官方图表 {{ data.meta?.review.official_map_traceable_count }} · 归档地名查询 {{ data.meta?.review.lookup_response_archived_count }}</span><span><a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">© OpenStreetMap contributors</a> · <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL 1.0</a></span></footer>
+      <footer class="map-sources"><span>定位依据：GIS {{ data.meta?.review.gis_snapshot_traceable_count }} · 官方图表 {{ data.meta?.review.official_map_traceable_count }} · 归档地名查询 {{ data.meta?.review.lookup_response_archived_count }}</span><span>地理参考：<a href="https://cloudcenter.tianditu.gov.cn/administrativeDivision/" target="_blank" rel="noreferrer">天地图</a> / <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">© OpenStreetMap contributors</a> · <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL 1.0</a></span></footer>
     </section>
     <SourceDrawer :source="source" @close="source = null" />
   </div>

@@ -5,6 +5,7 @@ export const earthRadius = 3
 export interface ReferenceCollection {
   type: 'FeatureCollection'
   features: Array<{ geometry: { type: 'Polygon' | 'MultiPolygon'; coordinates: number[][][] | number[][][][] } | null }>
+  southChinaSeaLines: number[][][]
 }
 
 export interface GlobeVisuals {
@@ -17,7 +18,7 @@ export interface GlobeVisuals {
 interface GeographicBounds { west: number; east: number; south: number; north: number }
 const worldBounds: GeographicBounds = { west: -180, east: 180, south: -90, north: 90 }
 
-/** 纹理由已归档的Natural Earth几何绘制，不下载在线瓦片或生成虚构地形。 */
+/** 使用离线全球参考和天地图中国区域生成纹理。 */
 function geographicTexture(collection: ReferenceCollection, renderer: THREE.WebGLRenderer, bounds: GeographicBounds, size: number): THREE.CanvasTexture {
   const canvas = document.createElement('canvas')
   canvas.width = Math.min(size, renderer.capabilities.maxTextureSize)
@@ -62,6 +63,24 @@ function geographicTexture(collection: ReferenceCollection, renderer: THREE.WebG
         context.fill(path, 'evenodd')
         context.stroke(path)
       }
+    }
+  }
+  // 断续线是开放线段，不能按陆地多边形填充或闭合。
+  context.strokeStyle = '#9cc2bf'
+  for (const line of collection.southChinaSeaLines) {
+    if (line.length < 2) continue
+    const west = Math.min(...line.map(point => point[0]!))
+    const east = Math.max(...line.map(point => point[0]!))
+    const firstCopy = bounds === worldBounds ? 0 : Math.ceil((bounds.west - east) / 360)
+    const lastCopy = bounds === worldBounds ? 0 : Math.floor((bounds.east - west) / 360)
+    for (let copy = firstCopy; copy <= lastCopy; copy++) {
+      context.beginPath()
+      line.forEach(([longitude, latitude], index) => {
+        const x = xAtLongitude(longitude! + copy * 360); const y = yAtLatitude(latitude!)
+        if (index === 0) context.moveTo(x, y)
+        else context.lineTo(x, y)
+      })
+      context.stroke()
     }
   }
   context.strokeStyle = 'rgba(177, 215, 227, 0.12)'
@@ -115,26 +134,28 @@ function atmosphere(): THREE.Mesh {
 /** 合并为一个描边绘制对象，近景仍保留清晰的岛屿轮廓而不增大纹理。 */
 function geographicOutlines(collection: ReferenceCollection): THREE.LineSegments {
   const positions: number[] = []
-  for (const feature of collection.features) {
-    if (!feature.geometry) continue
-    const polygons = feature.geometry.type === 'Polygon' ? [feature.geometry.coordinates as number[][][]] : feature.geometry.coordinates as number[][][][]
-    for (const polygon of polygons) for (const ring of polygon) {
-      for (let index = 1; index < ring.length; index++) {
-        const start = ring[index - 1]!
-        const end = ring[index]!
-        let longitudeStep = end[0]! - start[0]!
-        if (longitudeStep > 180) longitudeStep -= 360
-        if (longitudeStep < -180) longitudeStep += 360
-        const latitudeStep = end[1]! - start[1]!
-        // 长边细分后贴合球面，不能用穿过球体内部的直弦画海岸线。
-        const steps = Math.max(1, Math.ceil(Math.max(Math.abs(longitudeStep), Math.abs(latitudeStep)) / 0.3))
-        for (let step = 0; step < steps; step++) for (const progress of [step / steps, (step + 1) / steps]) {
-          const position = latLonToVector3(start[1]! + latitudeStep * progress, start[0]! + longitudeStep * progress, 3.00012)
-          positions.push(position.x, position.y, position.z)
-        }
+  // 面轮廓与断续线共用球面贴合算法，保持近景可见。
+  const appendLine = (ring: number[][]) => {
+    for (let index = 1; index < ring.length; index++) {
+      const start = ring[index - 1]!
+      const end = ring[index]!
+      let longitudeStep = end[0]! - start[0]!
+      if (longitudeStep > 180) longitudeStep -= 360
+      if (longitudeStep < -180) longitudeStep += 360
+      const latitudeStep = end[1]! - start[1]!
+      const steps = Math.max(1, Math.ceil(Math.max(Math.abs(longitudeStep), Math.abs(latitudeStep)) / 0.3))
+      for (let step = 0; step < steps; step++) for (const progress of [step / steps, (step + 1) / steps]) {
+        const position = latLonToVector3(start[1]! + latitudeStep * progress, start[0]! + longitudeStep * progress, 3.00012)
+        positions.push(position.x, position.y, position.z)
       }
     }
   }
+  for (const feature of collection.features) {
+    if (!feature.geometry) continue
+    const polygons = feature.geometry.type === 'Polygon' ? [feature.geometry.coordinates as number[][][]] : feature.geometry.coordinates as number[][][][]
+    for (const polygon of polygons) for (const ring of polygon) appendLine(ring)
+  }
+  collection.southChinaSeaLines.forEach(appendLine)
   const geometry = new THREE.BufferGeometry()
   geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3))
   return new THREE.LineSegments(geometry, new THREE.LineBasicMaterial({ color: 0x98bebd, transparent: true, opacity: 0.42, depthWrite: false }))
