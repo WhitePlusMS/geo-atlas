@@ -1,0 +1,2316 @@
+{
+  "type": "FeatureCollection",
+  "name": "DTC_2026_CRS_R47589_reference_sites",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "crs-r47589-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.616666,
+          64.8363889
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-001",
+        "source_record_no": 1,
+        "display_name": "Fort Wainwright",
+        "source_name": "Fort Wainwright",
+        "location_label": "Alaska",
+        "service_component": "Army",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 64.8363889,
+        "longitude": -147.616666,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-001-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-001-20261010",
+        "geometry_note": "Ladd Army Airfield。选取Ladd机场命名要素，对应官方Fort Wainwright历史中的Ladd场址背景；展示范围只代表机场锚点。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.7164340713254,
+          63.9732403210915
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-002",
+        "source_record_no": 2,
+        "display_name": "Fort Greely",
+        "source_name": "Fort Greely",
+        "location_label": "Alaska",
+        "service_component": "Army",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 63.9732403210915,
+        "longitude": -145.7164340713254,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Fort Greely（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.74650710913008,
+          61.289616893851644
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-003",
+        "source_record_no": 3,
+        "display_name": "Joint Base Elmendorf-Richardson",
+        "source_name": "Joint Base Elmendorf-Richardson",
+        "location_label": "Alaska",
+        "service_component": "Joint (Army and Air Force)",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 61.289616893851644,
+        "longitude": -149.74650710913008,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Joint Base Elmendorf-Richardson（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.0830005366956,
+          64.67758790053794
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-004",
+        "source_record_no": 4,
+        "display_name": "Eielson Air Force Base",
+        "source_name": "Eielson Air Force Base",
+        "location_label": "Alaska",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 64.67758790053794,
+        "longitude": -147.0830005366956,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Eielson Air Force Base（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.1066129425254,
+          52.72096314496379
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-005",
+        "source_record_no": 5,
+        "display_name": "Eareckson Air Station",
+        "source_name": "Eareckson Air Station",
+        "location_label": "Alaska",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 52.72096314496379,
+        "longitude": 174.1066129425254,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Eareckson Air Station（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2387316903634,
+          64.28457213769661
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-006",
+        "source_record_no": 6,
+        "display_name": "Clear Space Force Station",
+        "source_name": "Clear Space Force Station",
+        "location_label": "Alaska",
+        "service_component": "Space Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 64.28457213769661,
+        "longitude": -149.2387316903634,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Clear Space Force Station（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5074136,
+          47.0308343
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-007",
+        "source_record_no": 7,
+        "display_name": "Joint Base Lewis-McChord",
+        "source_name": "Joint Base Lewis-McChord",
+        "location_label": "Washington",
+        "service_component": "Joint (Army and Air Force)",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 47.0308343,
+        "longitude": -122.5074136,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-007-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-007-20261010",
+        "geometry_note": "Joint Base Lewis-McChord。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7192208,
+          47.7254515
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-008",
+        "source_record_no": 8,
+        "display_name": "Naval Base Kitsap",
+        "source_name": "Naval Base Kitsap",
+        "location_label": "Washington",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 47.7254515,
+        "longitude": -122.7192208,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-008-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-008-20261010",
+        "geometry_note": "Naval Base Kitsap - Bangor。Bangor是官方列举的Kitsap组成地点之一；仅以Bangor要素作锚点，不覆盖Bremerton及其他组成地点。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2250868,
+          47.9873577
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-009",
+        "source_record_no": 9,
+        "display_name": "Naval Station Everett",
+        "source_name": "Naval Station Everett",
+        "location_label": "Washington",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 47.9873577,
+        "longitude": -122.2250868,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-009-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-009-20261010",
+        "geometry_note": "Naval Station Everett。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65271172722966,
+          48.331644130233904
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-010",
+        "source_record_no": 10,
+        "display_name": "Naval Air Station Whidbey Island",
+        "source_name": "Naval Air Station Whidbey Island",
+        "location_label": "Washington",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 48.331644130233904,
+        "longitude": -122.65271172722966,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Naval Air Station Whidbey Island（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.64965494369982,
+          47.61656178424634
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-011",
+        "source_record_no": 11,
+        "display_name": "Fairchild Air Force Base",
+        "source_name": "Fairchild Air Force Base",
+        "location_label": "Washington",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 47.61656178424634,
+        "longitude": -117.64965494369982,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Fairchild Air Force Base（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1180463,
+          34.1141518
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-012",
+        "source_record_no": 12,
+        "display_name": "Naval Base Ventura County",
+        "source_name": "Naval Base Ventura County",
+        "location_label": "California",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 34.1141518,
+        "longitude": -119.1180463,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-012-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-012-20261010",
+        "geometry_note": "Naval Air Station Point Mugu。官方Ventura County介绍列Point Mugu为组成地点；此处选其命名机场锚点，Port Hueneme与San Nicolas Island另列关系。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2052762,
+          32.6991134
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-013",
+        "source_record_no": 13,
+        "display_name": "Naval Base Coronado",
+        "source_name": "Naval Base Coronado",
+        "location_label": "California",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 32.6991134,
+        "longitude": -117.2052762,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-013-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-013-20261010",
+        "geometry_note": "Naval Air Station North Island。官方Coronado介绍列North Island为组成地点；此处选North Island命名要素，其他营区不合并为同一地块。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.11870297419544,
+          32.67599077266669
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-014",
+        "source_record_no": 14,
+        "display_name": "Naval Base San Diego",
+        "source_name": "Naval Base San Diego",
+        "location_label": "California",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 32.67599077266669,
+        "longitude": -117.11870297419544,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Naval Base San Diego（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.25062384824842,
+          32.69335683135251
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-015",
+        "source_record_no": 15,
+        "display_name": "Naval Base Point Loma",
+        "source_name": "Naval Base Point Loma",
+        "location_label": "California",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 32.69335683135251,
+        "longitude": -117.25062384824842,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Naval Base Point Loma（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.096332818664,
+          32.87411858721373
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-016",
+        "source_record_no": 16,
+        "display_name": "Marine Corps Air Station Miramar",
+        "source_name": "Marine Corps Air Station Miramar",
+        "location_label": "California",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 32.87411858721373,
+        "longitude": -117.096332818664,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Marine Corps Air Station Miramar（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.44640761940391,
+          33.32561580191798
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-017",
+        "source_record_no": 17,
+        "display_name": "Marine Corps Base Camp Pendleton",
+        "source_name": "Marine Corps Base Camp Pendleton",
+        "location_label": "California",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 33.32561580191798,
+        "longitude": -117.44640761940391,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Marine Corps Base Camp Pendleton（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.40868909679828,
+          39.1283382437677
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-018",
+        "source_record_no": 18,
+        "display_name": "Beale Air Force Base",
+        "source_name": "Beale Air Force Base",
+        "location_label": "California",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 39.1283382437677,
+        "longitude": -121.40868909679828,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Beale Air Force Base（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.93543264673885,
+          38.26176017540254
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-019",
+        "source_record_no": 19,
+        "display_name": "Travis Air Force Base",
+        "source_name": "Travis Air Force Base",
+        "location_label": "California",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 38.26176017540254,
+        "longitude": -121.93543264673885,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Travis Air Force Base（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.58568629155535,
+          34.60810883959886
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-020",
+        "source_record_no": 20,
+        "display_name": "Vandenberg Space Force Base",
+        "source_name": "Vandenberg Space Force Base",
+        "location_label": "California",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 34.60810883959886,
+        "longitude": -120.58568629155535,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Vandenberg Space Force Base（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.0651881,
+          21.4933652
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-021",
+        "source_record_no": 21,
+        "display_name": "Schofield Barracks",
+        "source_name": "Schofield Barracks",
+        "location_label": "Hawaii",
+        "service_component": "Army",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 21.4933652,
+        "longitude": -158.0651881,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-021-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-021-20261010",
+        "geometry_note": "Schofield Barracks。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.88830537763047,
+          21.34012676059712
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-022",
+        "source_record_no": 22,
+        "display_name": "Fort Shafter",
+        "source_name": "Fort Shafter",
+        "location_label": "Hawaii",
+        "service_component": "Army",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 21.34012676059712,
+        "longitude": -157.88830537763047,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Fort Shafter（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.03460960899173,
+          21.473696662376337
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-023",
+        "source_record_no": 23,
+        "display_name": "Wheeler Army Airfield",
+        "source_name": "Wheeler Army Airfield",
+        "location_label": "Hawaii",
+        "service_component": "Army",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 21.473696662376337,
+        "longitude": -158.03460960899173,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Wheeler Army Airfield（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.13330355409502,
+          21.4467373789756
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-024",
+        "source_record_no": 24,
+        "display_name": "Joint Base Pearl Harbor-Hickam",
+        "source_name": "Joint Base Pearl Harbor-Hickam",
+        "location_label": "Hawaii",
+        "service_component": "Joint (Navy and Air Force)",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 21.4467373789756,
+        "longitude": -158.13330355409502,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Joint Base Pearl Harbor-Hickam（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.7846058,
+          22.0259647
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-025",
+        "source_record_no": 25,
+        "display_name": "Pacific Missile Range Facility, Barking Sands",
+        "source_name": "Pacific Missile Range Facility, Barking Sands",
+        "location_label": "Hawaii",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 22.0259647,
+        "longitude": -159.7846058,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-025-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-025-20261010",
+        "geometry_note": "PMRF Barking Sands。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.75029440499998,
+          21.441783414000042
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-026",
+        "source_record_no": 26,
+        "display_name": "Marine Corps Base Hawaii",
+        "source_name": "Marine Corps Base Hawaii",
+        "location_label": "Hawaii",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 21.441783414000042,
+        "longitude": -157.75029440499998,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-026-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-026-20261010",
+        "geometry_note": "Marine Corps Base Hawaii / Kaneohe Bay主驻地。选取GNIS同名主驻地，已与Camp H M Smith及Pearl City Annex的独立GNIS要素分开。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.633617,
+          19.2833522
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-027",
+        "source_record_no": 27,
+        "display_name": "Wake Island Airfield",
+        "source_name": "Wake Island Airfield",
+        "location_label": "Wake Island",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 19.2833522,
+        "longitude": 166.633617,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-027-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-027-20261010",
+        "geometry_note": "Wake Island Airfield。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.70243970541642,
+          13.445575372658784
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-028",
+        "source_record_no": 28,
+        "display_name": "Naval Base Guam",
+        "source_name": "Naval Base Guam",
+        "location_label": "Guam",
+        "service_component": "Navy",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 13.445575372658784,
+        "longitude": 144.70243970541642,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-disdi-ntad-military-bases-2025-11-11",
+        "geometry_note": "Naval Base Guam（归档GIS范围内展示点）。名称、地区与机构匹配；展示点已验证位于归档来源面内，不表示设施边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8543397,
+          13.5868822
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-029",
+        "source_record_no": 29,
+        "display_name": "Marine Corps Base Camp Blaz",
+        "source_name": "Marine Corps Base Camp Blaz",
+        "location_label": "Guam",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 13.5868822,
+        "longitude": 144.8543397,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-029-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-029-20261010",
+        "geometry_note": "Camp Blaz。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9103189,
+          13.5881013
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-030",
+        "source_record_no": 30,
+        "display_name": "Andersen Air Force Base",
+        "source_name": "Andersen Air Force Base",
+        "location_label": "Guam",
+        "service_component": "Air Force",
+        "us_territory_flag": "Yes",
+        "dod_operated_raw": "Yes",
+        "latitude": 13.5881013,
+        "longitude": 144.9103189,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-030-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-030-20261010",
+        "geometry_note": "Andersen Air Force Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.7315599,
+          8.7206583
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-031",
+        "source_record_no": 31,
+        "display_name": "Army Garrison-Kwajalein Atoll",
+        "source_name": "Army Garrison-Kwajalein Atoll",
+        "location_label": "Republic of the Marshall Islands",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 8.7206583,
+        "longitude": 167.7315599,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-031-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-031-20261010",
+        "geometry_note": "Bucholz Army Airfield。陆军环境评估明确Bucholz机场位于Kwajalein主岛；用该机场作多岛驻地锚点，Roi-Namur等另列关系。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3972382,
+          35.502178
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-032",
+        "source_record_no": 32,
+        "display_name": "Camp Zama",
+        "source_name": "Camp Zama",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.502178,
+        "longitude": 139.3972382,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-032-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-032-20261010",
+        "geometry_note": "Unites States Army Camp Zama。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.3213998,
+          40.9668366
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-033",
+        "source_record_no": 33,
+        "display_name": "Shariki Communications Site",
+        "source_name": "Shariki Communications Site",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 40.9668366,
+        "longitude": 140.3213998,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-shariki-map-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-shariki-map-20261010",
+        "geometry_note": "車力通信所（公开通知设施参考范围）。已核对红色设施参考区域与蓝色周边区域；六个公布控制点配准最大残差18.61米，展示点在红色区域内，不采用相邻JASDF分屯基地。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.1956559,
+          35.7657794
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-034",
+        "source_record_no": 34,
+        "display_name": "Kyogamisaki Communications Site",
+        "source_name": "Kyogamisaki Communications Site",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.7657794,
+        "longitude": 135.1956559,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-034-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-034-20261010",
+        "geometry_note": "Kyogamisaki Communications Site。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6705808,
+          35.2933204
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-035",
+        "source_record_no": 35,
+        "display_name": "Fleet Activities Yokosuka",
+        "source_name": "Fleet Activities Yokosuka",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Navy",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.2933204,
+        "longitude": 139.6705808,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-035-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-035-20261010",
+        "geometry_note": "United States Fleet Activities Yokosuka。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.7121101,
+          33.1636258
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-036",
+        "source_record_no": 36,
+        "display_name": "Fleet Activities Sasebo",
+        "source_name": "Fleet Activities Sasebo",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Navy",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 33.1636258,
+        "longitude": 129.7121101,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-036-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-036-20261010",
+        "geometry_note": "United States Fleet Activities Sasebo。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4425475,
+          35.4544705
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-037",
+        "source_record_no": 37,
+        "display_name": "Naval Air Facility Atsugi",
+        "source_name": "Naval Air Facility Atsugi",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Navy",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.4544705,
+        "longitude": 139.4425475,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-037-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-037-20261010",
+        "geometry_note": "United States Naval Air Facility Atsugi。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.2359287,
+          34.1590932
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-038",
+        "source_record_no": 38,
+        "display_name": "Marine Corps Air Station Iwakuni",
+        "source_name": "Marine Corps Air Station Iwakuni",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 34.1590932,
+        "longitude": 132.2359287,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-038-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-038-20261010",
+        "geometry_note": "Iwakuni Kintaikyo Airport。岩国机场运营方明确民航使用美军基地跑道；选共用机场命名要素，只作为机场场址锚点。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.34995,
+          35.7462461
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-039",
+        "source_record_no": 39,
+        "display_name": "Yokota Air Base",
+        "source_name": "Yokota Air Base",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Air Force",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.7462461,
+        "longitude": 139.34995,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-039-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-039-20261010",
+        "geometry_note": "Yokota Air Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3624151,
+          40.7079533
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-040",
+        "source_record_no": 40,
+        "display_name": "Misawa Air Base",
+        "source_name": "Misawa Air Base",
+        "location_label": "Japan (Mainland)",
+        "service_component": "Air Force",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 40.7079533,
+        "longitude": 141.3624151,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-040-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-040-20261010",
+        "geometry_note": "Misawa Air Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.737111,
+          26.3778262
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-041",
+        "source_record_no": 41,
+        "display_name": "Army Garrison Okinawa",
+        "source_name": "Army Garrison Okinawa",
+        "location_label": "Japan (Okinawa)",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 26.3778262,
+        "longitude": 127.737111,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-041-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-041-20261010",
+        "geometry_note": "Torii Station。官方Okinawa驻地介绍把Torii Station列入驻地体系；以Torii作锚点，其他设施保持独立名称与关系。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7693271,
+          26.2970975
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-042",
+        "source_record_no": 42,
+        "display_name": "Marine Corps Base Camp Butler",
+        "source_name": "Marine Corps Base Camp Butler",
+        "location_label": "Japan (Okinawa)",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 26.2970975,
+        "longitude": 127.7693271,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-042-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-042-20261010",
+        "geometry_note": "Camp Foster。Camp Butler为冲绳多营区管理名称；以Camp Foster要素作锚点，不把全部营区或Futenma航空站合并成一个地块。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7589446,
+          26.2757222
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-043",
+        "source_record_no": 43,
+        "display_name": "Marine Corps Air Station Futenma",
+        "source_name": "Marine Corps Air Station Futenma",
+        "location_label": "Japan (Okinawa)",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 26.2757222,
+        "longitude": 127.7589446,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-043-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-043-20261010",
+        "geometry_note": "Marine Corps Air Station Futenma。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7744269,
+          26.3485723
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-044",
+        "source_record_no": 44,
+        "display_name": "Kadena Air Base",
+        "source_name": "Kadena Air Base",
+        "location_label": "Japan (Okinawa)",
+        "service_component": "Air Force",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 26.3485723,
+        "longitude": 127.7744269,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-044-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-044-20261010",
+        "geometry_note": "Kadena Air Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0125717,
+          36.9664655
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-045",
+        "source_record_no": 45,
+        "display_name": "Camp Humphreys",
+        "source_name": "Camp Humphreys",
+        "location_label": "Republic of Korea",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 36.9664655,
+        "longitude": 127.0125717,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-045-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-045-20261010",
+        "geometry_note": "USAG Humphreys。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6008911,
+          35.8513307
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-046",
+        "source_record_no": 46,
+        "display_name": "Army Garrison Daegu",
+        "source_name": "Army Garrison Daegu",
+        "location_label": "Republic of Korea",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.8513307,
+        "longitude": 128.6008911,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-046-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-046-20261010",
+        "geometry_note": "Camp Henry。官方Daegu介绍将Camp Henry列为组成营区；采用Henry锚点，Walker、George、Carroll及Busan地点另列关系。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.077922,
+          37.9260457
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-047",
+        "source_record_no": 47,
+        "display_name": "Army Garrison Yongsan-Casey",
+        "source_name": "Army Garrison Yongsan-Casey",
+        "location_label": "Republic of Korea",
+        "service_component": "Army",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 37.9260457,
+        "longitude": 127.077922,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-047-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-047-20261010",
+        "geometry_note": "Camp Casey。官方Yongsan-Casey服务页将Camp Casey列为支持地点；仅用Casey锚点，不覆盖其他Area I/II设施。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6421526,
+          35.1598791
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-048",
+        "source_record_no": 48,
+        "display_name": "Fleet Activities Chinhae",
+        "source_name": "Fleet Activities Chinhae",
+        "location_label": "Republic of Korea",
+        "service_component": "Navy",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.1598791,
+        "longitude": 128.6421526,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-spatial-048-064caa0ec9",
+        "coordinate_precision": "locality_anchor",
+        "coordinate_semantics": "LOCALITY_ANCHOR",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-spatial-048-064caa0ec9",
+        "geometry_note": "Hyeon-dong。MilitaryINSTALLATIONS当前地址为1 Hyeon-Dong，Navy MWR用Hyun-Dong；选取现洞현동命名街区点，只表达地址所在地。旧出租车资料另用Yeojwa-dong，未取得门牌对应表；此点不表示CFAC门岗或设施中心。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.4285095,
+          35.9576003
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-049",
+        "source_record_no": 49,
+        "display_name": "Marine Corps Installation Camp Mujuk",
+        "source_name": "Marine Corps Installation Camp Mujuk",
+        "location_label": "Republic of Korea",
+        "service_component": "Marine Corps",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.9576003,
+        "longitude": 129.4285095,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-049-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-049-20261010",
+        "geometry_note": "Camp Mujuk。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0265382,
+          37.0838419
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-050",
+        "source_record_no": 50,
+        "display_name": "Osan Air Base",
+        "source_name": "Osan Air Base",
+        "location_label": "Republic of Korea",
+        "service_component": "Air Force",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 37.0838419,
+        "longitude": 127.0265382,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-050-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-050-20261010",
+        "geometry_note": "Osan Air Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6220529,
+          35.907218
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-051",
+        "source_record_no": 51,
+        "display_name": "Kunsan Air Base",
+        "source_name": "Kunsan Air Base",
+        "location_label": "Republic of Korea",
+        "service_component": "Air Force",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": 35.907218,
+        "longitude": 126.6220529,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-051-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-051-20261010",
+        "geometry_note": "Gunsan Airport。太平洋空军官方报道确认Gunsan民用机场使用Kunsan基地跑道；以共用机场命名要素作锚点，不代表完整军事边界。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7565823,
+          9.7466068
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-052",
+        "source_record_no": 52,
+        "display_name": "Antonio Bautista Air Base",
+        "source_name": "Antonio Bautista Air Base",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 9.7466068,
+        "longitude": 118.7565823,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-052-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-052-20261010",
+        "geometry_note": "Antonio Bautista Air Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4931335,
+          14.9870389
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-053",
+        "source_record_no": 53,
+        "display_name": "Basa Air Base",
+        "source_name": "Basa Air Base",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 14.9870389,
+        "longitude": 120.4931335,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-053-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-053-20261010",
+        "geometry_note": "Basa Air Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1105858,
+          15.4242194
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-054",
+        "source_record_no": 54,
+        "display_name": "Fort Magsaysay",
+        "source_name": "Fort Magsaysay",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 15.4242194,
+        "longitude": 121.1105858,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-054-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-054-20261010",
+        "geometry_note": "Fort Ramon Magsaysay。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6107276,
+          8.4133227
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-055",
+        "source_record_no": 55,
+        "display_name": "Lumbia Airport",
+        "source_name": "Lumbia Airport",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 8.4133227,
+        "longitude": 124.6107276,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-055-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-055-20261010",
+        "geometry_note": "Lumbia Airfield。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9717283,
+          10.314221
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-056",
+        "source_record_no": 56,
+        "display_name": "Benito Ebuen Air Base",
+        "source_name": "Benito Ebuen Air Base",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 10.314221,
+        "longitude": 123.9717283,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-056-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-056-20261010",
+        "geometry_note": "Mactan Benito Ebuen Air Base。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1495733,
+          18.5035341
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-057",
+        "source_record_no": 57,
+        "display_name": "Naval Base Camilo Osias",
+        "source_name": "Naval Base Camilo Osias",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 18.5035341,
+        "longitude": 122.1495733,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-057-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-057-20261010",
+        "geometry_note": "Naval Base Camilo Osias。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7480593,
+          18.1824018
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-058",
+        "source_record_no": 58,
+        "display_name": "Lal-lo Airport",
+        "source_name": "Lal-lo Airport",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 18.1824018,
+        "longitude": 121.7480593,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-058-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-058-20261010",
+        "geometry_note": "Cagayan North International Airport。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8653877,
+          17.0731304
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-059",
+        "source_record_no": 59,
+        "display_name": "Camp Melchor Dela",
+        "source_name": "Camp Melchor Dela",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 17.0731304,
+        "longitude": 121.8653877,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-059-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-059-20261010",
+        "geometry_note": "Camp Melchor F. dela Cruz。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0219157,
+          7.9393979
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-060",
+        "source_record_no": 60,
+        "display_name": "Balabac Island",
+        "source_name": "Balabac Island",
+        "location_label": "The Philippines",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 7.9393979,
+        "longitude": 117.0219157,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-spatial-060-9e1b10f610",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "EDCA_AGREED_LOCATION",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-spatial-060-9e1b10f610",
+        "geometry_note": "Balabac Island。美国国防部公告明确Balabac Island, Palawan；采用同名主岛要素，排除整个多岛市镇，岛屿轮廓不表示EDCA地籍。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8299464,
+          1.4616071
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-061",
+        "source_record_no": 61,
+        "display_name": "Navy Region Center Singapore",
+        "source_name": "Navy Region Center Singapore",
+        "location_label": "Singapore",
+        "service_component": "Navy",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": 1.4616071,
+        "longitude": 103.8299464,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-spatial-061-f14cad4551",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-spatial-061-f14cad4551",
+        "geometry_note": "Sembawang Wharves。NCIS将NRCS关联到Sembawang Terminal，海事港务局名录确认Sembawang Wharves；采用具名港区要素，未选用出租车点或整个英国旧海军基地。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.8992057,
+          -12.4142113
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-062",
+        "source_record_no": 62,
+        "display_name": "Royal Australian Air Force Base Darwin",
+        "source_name": "Royal Australian Air Force Base Darwin",
+        "location_label": "Australia",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": -12.4142113,
+        "longitude": 130.8992057,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-062-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-062-20261010",
+        "geometry_note": "RAAF Base Darwin。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.9754706,
+          -12.4371651
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-063",
+        "source_record_no": 63,
+        "display_name": "Robertson Barracks",
+        "source_name": "Robertson Barracks",
+        "location_label": "Australia",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": -12.4371651,
+        "longitude": 130.9754706,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-063-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-063-20261010",
+        "geometry_note": "Robertson Barracks。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.3801292,
+          -14.5190289
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-064",
+        "source_record_no": 64,
+        "display_name": "Royal Australian Air Force Base Tindal",
+        "source_name": "Royal Australian Air Force Base Tindal",
+        "location_label": "Australia",
+        "service_component": "N/A",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "No",
+        "latitude": -14.5190289,
+        "longitude": 132.3801292,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-064-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-064-20261010",
+        "geometry_note": "RAAF Base Tindal。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.164687,
+          -21.8186999
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-065",
+        "source_record_no": 65,
+        "display_name": "Naval Communications Station Harold E. Holt",
+        "source_name": "Naval Communications Station Harold E. Holt",
+        "location_label": "Australia",
+        "service_component": "Navy",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes (jointly w/ RAN)",
+        "latitude": -21.8186999,
+        "longitude": 114.164687,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-065-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "MULTI_SITE_NO_SINGLE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-065-20261010",
+        "geometry_note": "Naval Communication Station Harold E. Holt。国防部将Harold E Holt站分列Area A/B；使用OSM命名站点作总览锚点，不据此确认具体区域归属或覆盖全部地块。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crs-r47589-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.4137857,
+          -7.3124983
+        ]
+      },
+      "properties": {
+        "site_id": "crs-r47589-066",
+        "source_record_no": 66,
+        "display_name": "Naval Support Facility Diego Garcia",
+        "source_name": "Naval Support Facility Diego Garcia",
+        "location_label": "British Indian Ocean Territory (Diego Garcia)",
+        "service_component": "Navy",
+        "us_territory_flag": "No",
+        "dod_operated_raw": "Yes",
+        "latitude": -7.3124983,
+        "longitude": 72.4137857,
+        "coordinate_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "coordinate_source_id": "public-level1-location-066-20261010",
+        "coordinate_precision": "representative_point",
+        "coordinate_semantics": "REPRESENTATIVE_POINT",
+        "contest_record_id": null,
+        "geometry_status": "AGENT_VERIFIED_REPRESENTATIVE",
+        "geometry_source_id": "public-level1-location-066-20261010",
+        "geometry_note": "Naval Support Facility Diego Garcia。使用已归档命名要素，名称及地区与一手资料对应；保持提供者的代表点语义。",
+        "source_layer": "OFFICIAL_REFERENCE_CONTEXT",
+        "source_id": "input-01-crs-r47589",
+        "source_page": "44-46",
+        "review_status": "AGENT_VERIFIED"
+      }
+    }
+  ]
+}
