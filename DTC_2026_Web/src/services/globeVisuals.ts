@@ -25,11 +25,7 @@ function geographicTexture(collection: ReferenceCollection, renderer: THREE.WebG
   const context = canvas.getContext('2d')
   if (!context) throw new Error('无法生成地理参考纹理')
   const yAtLatitude = (latitude: number) => (bounds.north - latitude) / (bounds.north - bounds.south) * canvas.height
-  const center = (bounds.west + bounds.east) / 2
-  const xAtLongitude = (longitude: number) => {
-    const normalized = bounds.east - bounds.west === 360 ? longitude : center + ((longitude - center + 180) % 360 + 360) % 360 - 180
-    return (normalized - bounds.west) / (bounds.east - bounds.west) * canvas.width
-  }
+  const xAtLongitude = (longitude: number) => (longitude - bounds.west) / (bounds.east - bounds.west) * canvas.width
   const ocean = context.createLinearGradient(0, yAtLatitude(90), 0, yAtLatitude(-90))
   ocean.addColorStop(0, '#18364c'); ocean.addColorStop(0.45, '#0d2940'); ocean.addColorStop(1, '#102b42')
   context.fillStyle = ocean
@@ -45,25 +41,32 @@ function geographicTexture(collection: ReferenceCollection, renderer: THREE.WebG
     if (!geometry) continue
     const polygons = geometry.type === 'Polygon' ? [geometry.coordinates as number[][][]] : geometry.coordinates as number[][][][]
     for (const polygon of polygons) {
-      const path = new Path2D()
       // 来源已在日期变更线处分割。保留内环，湖泊不被陆地填满；南极的
       // 全经度多边形也可按原始经纬度直接绘制，避免旧球面三角形穿入球内。
-      for (const ring of polygon) {
-        ring.forEach(([longitude, latitude], index) => {
-          const x = xAtLongitude(longitude!)
-          const y = yAtLatitude(latitude!)
-          if (index === 0) path.moveTo(x, y)
-          else path.lineTo(x, y)
-        })
-        path.closePath()
+      let west = Infinity; let east = -Infinity
+      for (const ring of polygon) for (const point of ring) { west = Math.min(west, point[0]!); east = Math.max(east, point[0]!) }
+      // 整个多边形一起平移，避免逐点取模把远处轮廓跨接到局部视野。
+      const firstCopy = bounds === worldBounds ? 0 : Math.ceil((bounds.west - east) / 360)
+      const lastCopy = bounds === worldBounds ? 0 : Math.floor((bounds.east - west) / 360)
+      for (let copy = firstCopy; copy <= lastCopy; copy++) {
+        const path = new Path2D()
+        for (const ring of polygon) {
+          ring.forEach(([longitude, latitude], index) => {
+            const x = xAtLongitude(longitude! + copy * 360)
+            const y = yAtLatitude(latitude!)
+            if (index === 0) path.moveTo(x, y)
+            else path.lineTo(x, y)
+          })
+          path.closePath()
+        }
+        context.fill(path, 'evenodd')
+        context.stroke(path)
       }
-      context.fill(path, 'evenodd')
-      context.stroke(path)
     }
   }
   context.strokeStyle = 'rgba(177, 215, 227, 0.12)'
   context.lineWidth = 0.7
-  for (let longitude = -180; longitude <= 180; longitude += 30) {
+  for (let longitude = Math.ceil(bounds.west / 30) * 30; longitude <= bounds.east; longitude += 30) {
     const x = xAtLongitude(longitude)
     context.beginPath(); context.moveTo(x, 0); context.lineTo(x, canvas.height); context.stroke()
   }

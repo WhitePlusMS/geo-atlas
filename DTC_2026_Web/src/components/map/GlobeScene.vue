@@ -386,6 +386,10 @@ onMounted(() => {
         camera.lookAt(0, 0, 0); projectionDirty = true
         if (progress === 1) { transition = null; controls.enabled = true; controls.enableDamping = true; controls.update() }
       } else controls?.update()
+      // 近裁剪面随地表距离收放，避免固定极小值降低远距离的深度精度。
+      // 留出局部地图和海岸线高于球面的余量，贴近地面时仍不裁掉它们。
+      const near = Math.min(0.1, Math.max(0.00001, (camera.position.length() - earthRadius - 0.00012) * 0.25))
+      if (camera.near !== near) { camera.near = near; camera.updateProjectionMatrix() }
       // OrbitControls围绕地心旋转；贴近地表时同步缩小拖动幅度。
       if (controls) controls.rotateSpeed = 0.58 * movementScale(camera.position.length())
       if (projectionDirty && now - lastProjection >= 32) { projectMarkers(); lastProjection = now }
