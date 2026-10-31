@@ -46,4 +46,10 @@ const loadingStatus = computed(() => data.loading ? '数据加载中' : data.err
 .status-error { color: #9b2637; background: #fff0f2; border-color: #dea2ac; }
 .global-error { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
 .global-error button { padding: 7px 12px; border-radius: 5px; }
+/* 地图页导航悬浮在画布内，其余页面保持普通顶栏。 */
+.main-shell.map-shell { padding: 0; }
+.map-shell .topbar { position: fixed; top: 10px; right: 12px; z-index: 25; min-height: 0; padding: 0; background: transparent; }
+.map-shell .topbar h1, .map-shell .header-status { display: none; }
+.map-shell .nav-toggle { color: #d5e8ef; background: #0d2034e8; border-color: #35576a; }
+.map-shell .nav-toggle:hover { background: #1b4050; }
 </style>

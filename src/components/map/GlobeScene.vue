@@ -23,7 +23,7 @@ interface DisplayMarker extends ScreenPoint {
   anchorY: number
 }
 interface FocusTransition { start: number; duration: number; from: THREE.Vector3; rotation: THREE.Quaternion; fromDistance: number; toDistance: number }
-const props = defineProps<{ sites: SiteFeature[]; selectedSiteId?: string; profile?: BaseProfile }>()
+const props = defineProps<{ sites: SiteFeature[]; selectedSiteId?: string; profile?: BaseProfile; preview?: boolean }>()
 const emit = defineEmits<{ select: [site: SiteFeature]; clear: []; source: [id: string]; details: [site: SiteFeature] }>()
 const canvas = ref<HTMLCanvasElement | null>(null)
 const viewport = ref<HTMLDivElement | null>(null)
@@ -51,6 +51,11 @@ const sceneError = ref('')
 const motionEnabled = ref(true)
 const rotating = ref(false)
 const activePreset = ref('overview')
+const siteSearch = ref('')
+const matchingSites = computed(() => {
+  const query = siteSearch.value.trim().toLowerCase()
+  return props.sites.filter(site => [site.properties.display_name, site.properties.source_name, site.properties.location_label, locationLabel(site.properties.location_label), String(site.properties.source_record_no)].some(value => value.toLowerCase().includes(query)))
+})
 const presets = [
   { id: 'overview', label: '印太总览', latitude: 22, longitude: 164, distance: 9.6 },
   { id: 'japan', label: '日本 · 韩国', latitude: 34, longitude: 133, distance: 4.8 },
@@ -254,6 +259,9 @@ function showPopupSource() {
 
 function activateMarker(marker: DisplayMarker) {
   if (marker.members.length === 1) { selectSite(marker.site); return }
+  // 切换到聚合列表时先关闭上一站点详情，避免两个面板重叠。
+  emit('clear')
+  popupOpen.value = false
   expandedIds.value = marker.members.map((site) => site.properties.site_id)
   projectionDirty = true
   // 聚合圈表示视图聚合，成员位置仍各自投影；一键拉近后继续分解。
@@ -417,14 +425,12 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section class="globe-explorer" aria-label="交互式三维地图">
-    <div class="globe-toolbar">
-      <div class="region-presets" role="group" aria-label="地图区域定位">
-        <button v-for="preset in presets" :key="preset.id" type="button" :aria-pressed="activePreset === preset.id" @click="usePreset(preset.id)">{{ preset.label }}</button>
-      </div>
+  <section class="globe-explorer" :class="{ preview }" aria-label="交互式三维地图">
+    <div v-if="!preview" class="globe-toolbar">
+      <input v-model="siteSearch" type="search" aria-label="搜索地图站点" placeholder="搜索站点或记录号" />
       <select aria-label="地图定位站点" :value="selectedSiteId ?? ''" @change="chooseSite">
-        <option value="">定位一个站点</option>
-        <option v-for="site in sites" :key="site.properties.site_id" :value="site.properties.site_id">{{ String(site.properties.source_record_no).padStart(2, '0') }} · {{ site.properties.display_name }}</option>
+        <option value="">{{ matchingSites.length ? '定位一个站点' : '没有匹配站点' }}</option>
+        <option v-for="site in matchingSites" :key="site.properties.site_id" :value="site.properties.site_id">{{ String(site.properties.source_record_no).padStart(2, '0') }} · {{ site.properties.display_name }}</option>
       </select>
     </div>
     <div ref="viewport" class="globe-viewport" @pointerleave="hideHover" @wheel.capture="wheelZoom">
@@ -470,18 +476,24 @@ onBeforeUnmount(() => {
       <div class="scene-options"><button type="button" :aria-pressed="motionEnabled" @click="motionEnabled = !motionEnabled">飞机 / 卫星</button><button type="button" :aria-pressed="rotating" @click="toggleRotation">自动旋转</button></div>
       <span class="demonstration-note">飞行器与轨道为演示动画</span>
     </div>
-    <section v-if="hasSpatialDetails && selectedAnchor && profile" class="facility-panel" aria-label="地球上的设施与参考范围">
+    <details v-if="hasSpatialDetails && selectedAnchor && profile" class="facility-panel" aria-label="地球上的设施与参考范围">
+      <summary>组成地点与参考范围 · {{ anchors.length - 1 }}</summary>
       <div class="facility-heading"><div><strong>设施与地区 GIS 分布</strong><small>{{ anchors.length - 1 }} 处独立成员定位 · {{ areaCount }} 个公共参考范围</small></div><div class="facility-controls"><button type="button" @click="focusFacilities()">查看全部</button><button type="button" @click="focusFacilities(true)">聚焦所选</button></div></div>
       <div class="facility-list" role="group" aria-label="选择组成地点"><button v-for="anchor in anchors" :key="anchor.id" type="button" :aria-pressed="selectedAnchor.id === anchor.id" @click="selectAnchor(anchor.id)"><b>{{ anchor.label }}</b><span>{{ anchor.name }}</span></button></div>
       <div class="facility-selection"><strong>{{ selectedAnchor.name }}</strong><button type="button" @click="showAnchorSource">查看地图依据 <ArrowUpRight :size="14" aria-hidden="true" /></button><p>{{ selectedAnchor.location?.selection_reason ?? profile.location_evidence.selection_reason }}</p><small>{{ selectedAnchor.location?.accuracy_note ?? '总览位置按该条定位记录的对象与范围解释。' }}</small></div>
       <p class="facility-note">填色表示公开来源参考范围，并非正式设施边界；避让引线指回原始位置。</p>
-    </section>
-    <div v-if="expandedIds.length" class="expanded-group" aria-label="密集区域站点列表">
+    </details>
+    <div v-if="expandedIds.length && !selectedSiteId" class="expanded-group" aria-label="密集区域站点列表">
       <div><strong>已展开 {{ expandedMembers.length }} 个站点</strong><button type="button" aria-label="收起聚合站点" @click="clearExpansion"><X :size="18" aria-hidden="true" /></button></div>
       <small>避让连线指回原位置；屏幕空间不足时可从列表选择</small>
       <button v-for="site in expandedMembers" :key="site.properties.site_id" type="button" @click="selectSite(site)"><i :style="{ background: mapService(site).color }" />{{ String(site.properties.source_record_no).padStart(2, '0') }} · {{ site.properties.display_name }}</button>
     </div>
-    <div class="globe-instructions"><span>拖动旋转 · 滚轮围绕指向位置缩放 · 点击数字聚合展开</span><span>离线底图不含道路或卫星影像；避让连线指回原位置</span></div>
+    <div v-if="!preview" class="globe-bottom">
+      <div class="region-presets" role="group" aria-label="地图区域定位">
+        <button v-for="preset in presets" :key="preset.id" type="button" :aria-pressed="activePreset === preset.id" @click="usePreset(preset.id)">{{ preset.label }}</button>
+      </div>
+      <slot name="filters" />
+    </div>
   </section>
 </template>
 
@@ -522,4 +534,23 @@ onBeforeUnmount(() => {
 .globe-instructions{display:flex;justify-content:space-between;gap:12px;padding:12px 17px;background:#0a1729;border-top:1px solid #203349;color:#8fa7bf;font-size:10px;line-height:1.7}
 .globe-error{position:absolute;top:80px;left:20px;right:65px;background:#412433;color:#ffd6d6;border:1px solid #795468;padding:14px;border-radius:8px;z-index:10;font-size:12px}
 @media(max-width:760px){.globe-toolbar{display:block;padding:12px}.region-presets{gap:4px}.globe-toolbar button{padding:6px 8px;font-size:10px}.globe-toolbar select{margin-top:10px;width:100%;max-width:none}.globe-viewport{height:clamp(400px,calc(100dvh - 330px),900px);min-height:400px}.view-status{left:12px;top:15px;font-size:10px;gap:6px}.view-status span{font-size:9px;padding-left:7px}.globe-zoom{right:10px;top:47px;width:34px}.facility-panel{padding:15px 12px}.facility-list{grid-template-columns:repeat(2,minmax(0,1fr))}.facility-list button{font-size:12px}.expanded-group{grid-template-columns:1fr;max-height:230px}.demonstration-note{left:15px;right:auto;bottom:50px;font-size:9px}.scene-options{bottom:13px}.globe-instructions{display:block;padding:10px 12px;font-size:9px}.globe-instructions span{display:block}.map-hover-card{width:220px}.marker-label{font-size:9px}}
+/* 页面和预览共用同一地球；只有完整地图显示筛选和操作控件。 */
+.globe-explorer{position:relative;display:flex;flex-direction:column;height:100%;min-height:0;border-radius:0}
+.globe-viewport{flex:1;height:auto;min-height:0}
+.globe-toolbar{position:absolute;z-index:12;right:72px;top:10px;display:flex;gap:6px;padding:0;border:0;background:transparent}
+.globe-toolbar input{width:160px;min-height:42px;padding:8px 10px;color:#d7e8f0;background:#0d2034e8;border:1px solid #29415a;font-size:11px}
+.globe-toolbar select{width:205px;max-width:calc(100vw - 120px);margin:0;min-height:42px}
+.globe-zoom{top:66px}
+.globe-bottom{display:flex;align-items:center;gap:14px;min-height:55px;padding:8px 14px;background:#0a1729;border-top:1px solid #1c324a;overflow-x:auto;overscroll-behavior-x:contain}
+.region-presets{flex:none;flex-wrap:nowrap;gap:4px}
+.region-presets button{white-space:nowrap;border:1px solid transparent;background:transparent;color:#a8bfd2;padding:8px;border-radius:6px;font-size:11px}
+.region-presets button:hover,.region-presets button[aria-pressed=true]{color:#d8fff7;background:#143337;border-color:#285052}
+.facility-panel,.expanded-group{position:absolute;left:12px;bottom:68px;z-index:12;width:min(460px,calc(100% - 24px));max-height:38%;overflow:auto;border:1px solid #446179;border-radius:9px}
+.facility-panel:not([open]){width:max-content;max-width:calc(100% - 150px)}
+.facility-panel summary{color:#d9f6ef;font-size:12px;font-weight:650}.facility-panel[open] summary{margin-bottom:16px}
+.facility-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+.preview .globe-toolbar,.preview .globe-bottom,.preview .globe-zoom,.preview .view-status,.preview .scene-options,.preview .demonstration-note,.preview .facility-panel,.preview .expanded-group{display:none}
+.preview .globe-viewport{height:100%;min-height:0}
+@media(max-width:760px){.globe-toolbar{right:66px;top:10px;display:flex;padding:0}.globe-toolbar input{width:118px}.globe-toolbar select{margin:0;width:130px;max-width:calc(100vw - 240px)}.globe-viewport{height:auto;min-height:0}.globe-zoom{top:66px}.globe-bottom{min-height:52px;padding:7px 10px}.facility-panel,.expanded-group{bottom:60px;max-height:42%;padding:12px}.facility-list{grid-template-columns:1fr}}
+@media(max-width:600px){.globe-toolbar{left:10px;right:55px;top:60px}.globe-toolbar input{flex:1;width:auto;min-width:0}.globe-toolbar select{flex:1;width:auto;min-width:0;max-width:none}.globe-zoom{top:112px}.view-status{top:112px}}
 </style>
