@@ -16,3 +16,9 @@
 - `src/views/OverviewView.vue`、`src/layouts/AppShell.vue`：移除首页的“浏览参考站点”按钮及指定提示；保留地图入口与其他页面说明。
 - 本地验证：TypeScript 检查、生产构建、数据校验及浏览器交互检查通过；覆盖筛选双向传递、空结果、详情返回、BSR 分页与清除和 390×844 模拟视口。构建仍提示地图资源超过 500 kB。
 - 推送前在远端目录结构的隔离工作区执行 `npm ci` 与 `npm run build`，数据校验和 TypeScript 编译通过。
+
+## 2026-10-31（移除各页面顶部黄色提示条）
+
+- `src/layouts/AppShell.vue`、`src/components/common/BoundaryBanner.vue`：移除地图、站点、详情、模型和统计页共用的顶部黄色提示条及其路由文案；页面正文中的来源和数据说明保留。
+- `src/styles/main.css`：清理提示条及其状态点专属样式；导航状态点保留。
+- 验证：`npm run build`（包含 TypeScript 和数据校验）通过；本机浏览器逐页核对首页、地图、站点目录、站点详情、模型和统计，均无顶部黄色提示条。临时预览已关闭，地图资源大于 500 kB 的既有构建提示仍在。
