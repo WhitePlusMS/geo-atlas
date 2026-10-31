@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { Check } from '@lucide/vue'
 import { computed } from 'vue'
-import { RouterLink, useRouter, type LocationQuery } from 'vue-router'
+import { RouterLink, useRouter, type LocationQueryRaw } from 'vue-router'
 import type { BaseProfile, SiteFeature } from '../../types/data'
 import ServiceBadge from '../common/ServiceBadge.vue'
 import { coordinateSemanticsLabel, locationLabel, profileReviewLabel } from '../../services/labels'
-const props = defineProps<{ sites: SiteFeature[]; profiles: BaseProfile[]; query: LocationQuery }>()
+const props = defineProps<{ sites: SiteFeature[]; profiles: BaseProfile[]; query: LocationQueryRaw }>()
 const router = useRouter()
 const reviews = computed(() => new Map(props.profiles.map(profile => [profile.site_id, profile.review_status])))
 const detailRoute = (site: SiteFeature) => ({ path: '/sites/' + site.properties.site_id, query: props.query })

@@ -32,7 +32,7 @@ const chapterCount = computed(() => data.profiles.reduce((count, profile) => cou
         <span class="eyebrow cyan">DTC 2026 / 初赛资料成果</span>
         <h2>把 66 条参考记录<br /><em>变成可追溯的空间底座</em></h2>
         <p>基于组委会初赛资料，整理 CRS 参考站点、公开代表位置、站点说明与 BSR 数据，并把每一条信息连回来源证据。</p>
-        <div class="overview-actions"><RouterLink to="/map" class="primary-btn">进入代表点地图</RouterLink><RouterLink to="/sites" class="secondary-btn">浏览参考站点</RouterLink></div>
+        <div class="overview-actions"><RouterLink to="/map" class="primary-btn">进入代表点地图</RouterLink></div>
       </div>
       <div class="hero-proof" aria-label="项目成果摘要">
         <div><strong>{{ data.meta?.review.approved_count }}</strong><span>画像来源审核通过</span><small>Codex · AI代理逐条复核</small></div>

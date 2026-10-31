@@ -21,7 +21,7 @@ const links = [{ path: '/', label: '概览', icon: LayoutDashboard }, { path: '/
 const title = computed(() => route.path.startsWith('/sites/') ? '站点详情' : links.find((link) => route.path === link.path)?.label ?? '基础资料')
 const loadingStatus = computed(() => data.loading ? '数据加载中' : data.error ? '数据加载失败' : data.coreReady ? '数据已加载' : '等待加载')
 const boundaryText = computed(() => {
-  if (route.path === '/') return '公开补充数据与组委会原始资料分层管理；代表位置不等同于正式竞赛坐标或设施边界。'
+  if (route.path === '/') return null
   if (route.path === '/map') return '当前地图展示公开来源补充代表点，坐标来源的审核结果见下方及站点详情。'
   if (route.path === '/sites') return '参考站点名称、地区和机构来自 CRS Table A-1；代表位置为公开来源补充。'
   if (route.path.startsWith('/sites/')) return '本页代表位置来自公开来源补充，不等同于组委会正式竞赛坐标或设施边界。'

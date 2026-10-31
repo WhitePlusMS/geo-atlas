@@ -8,3 +8,11 @@
 - 调整在独立工作区完成，不覆盖原工作目录中未提交的页面修改；本次不修改业务数据内容。
 - 验证：`npm ci`、生产构建与 TypeScript 编译通过；地图布局检查 11 项、空间视图和模型检查 10 项通过。隔离副本中的数据字节被改动后，数据校验按预期拒绝，证明构建不会自动覆盖旧校验和。
 - 对比 Git 暂存内容与原提交，六份运行数据和世界底图的字节完全一致；根目录工作流结构检查与 `git diff --check` 通过。
+
+## 2026-10-31（筛选联动与首页精简）
+
+- `src/services/siteFilters.ts`、`src/views/SitesView.vue`、`src/views/MapView.vue`、`src/components/site/SiteTable.vue`：地图和目录共用筛选规则，跨页面保留搜索、机构、地区和位置类型，详情返回保留条件；分别显示筛选总数和地图视窗数量。
+- `src/components/statistics/SimpleBarChart.vue`、`src/components/statistics/BsrDetailTable.vue`、`src/views/StatisticsView.vue`：BSR 机构图联动原表分页明细，提供清除筛选、源表行号和原始数值；点击机构定位到明细，窄屏表格支持横向滚动。BSR 与 CRS 保持独立口径。
+- `src/views/OverviewView.vue`、`src/layouts/AppShell.vue`：移除首页的“浏览参考站点”按钮及指定提示；保留地图入口与其他页面说明。
+- 本地验证：TypeScript 检查、生产构建、数据校验及浏览器交互检查通过；覆盖筛选双向传递、空结果、详情返回、BSR 分页与清除和 390×844 模拟视口。构建仍提示地图资源超过 500 kB。
+- 推送前在远端目录结构的隔离工作区执行 `npm ci` 与 `npm run build`，数据校验和 TypeScript 编译通过。
