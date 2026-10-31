@@ -1,0 +1,335 @@
+{
+  "checkedAt": "2026-10-12T00:36:14.853Z",
+  "mode": "read_only_production_ui_review",
+  "mobileViewportRequested": {
+    "width": 390,
+    "height": 844
+  },
+  "pages": [
+    {
+      "clientWidth": 390,
+      "height": 844,
+      "heightTotal": 1589,
+      "labels": [
+        {
+          "scrollWidth": 150,
+          "text": "海军现役",
+          "title": "海军现役",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "空军现役",
+          "title": "空军现役",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "陆军现役",
+          "title": "陆军现役",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "陆军预备役",
+          "title": "陆军预备役",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "空军国民警卫队",
+          "title": "空军国民警卫队",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "陆军国民警卫队",
+          "title": "陆军国民警卫队",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "海军陆战队现役",
+          "title": "海军陆战队现役",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "海军预备役",
+          "title": "海军预备役",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "White Sands Missile Range",
+          "title": "White Sands Missile Range",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "Nellis Nttr Pl106 65",
+          "title": "Nellis Nttr Pl106 65",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "Fort Bliss",
+          "title": "Fort Bliss",
+          "width": 150
+        },
+        {
+          "scrollWidth": 171,
+          "text": "Barry M Goldwater Air Force Range",
+          "title": "Barry M Goldwater Air Force Range",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "Yuma Proving Ground",
+          "title": "Yuma Proving Ground",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "Dugway Proving Ground",
+          "title": "Dugway Proving Ground",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "Fort Wainwright",
+          "title": "Fort Wainwright",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "Barry Goldwater Range",
+          "title": "Barry Goldwater Range",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "NAWS China Lake",
+          "title": "NAWS China Lake",
+          "width": 150
+        },
+        {
+          "scrollWidth": 150,
+          "text": "Twentynine Palms Main Base",
+          "title": "Twentynine Palms Main Base",
+          "width": 150
+        }
+      ],
+      "page": "statistics",
+      "scrollWidth": 390,
+      "url": "http://127.0.0.1:4180/#/statistics",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "containers": [
+        {
+          "class": "filters",
+          "clientWidth": 301,
+          "scrollWidth": 301
+        },
+        {
+          "class": "table-wrap",
+          "clientWidth": 286,
+          "scrollWidth": 329
+        }
+      ],
+      "inputs": [
+        {
+          "label": null,
+          "tag": "INPUT",
+          "value": ""
+        },
+        {
+          "label": null,
+          "tag": "SELECT",
+          "value": ""
+        }
+      ],
+      "page": "sites",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:4180/#/sites",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "heightTotal": 8935,
+      "instanceTop": 3024,
+      "page": "model",
+      "scrollWidth": 375,
+      "sourceUpdateTop": 7939,
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "heightTotal": 2259,
+      "page": "overview",
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "evidenceRendered": 12,
+      "heightTotal": 6018,
+      "mapMarkers": [
+        {
+          "box": {
+            "bottom": -75.39089965820312,
+            "height": 6.72698974609375,
+            "left": 153.48501586914062,
+            "right": 160.2119903564453,
+            "top": -82.11788940429688,
+            "width": 6.7269744873046875,
+            "x": 153.48501586914062,
+            "y": -82.11788940429688
+          },
+          "name": "选择Naval Base Kitsap - Bangor"
+        },
+        {
+          "box": {
+            "bottom": -1.36859130859375,
+            "height": 5.2321014404296875,
+            "left": 185.6548767089844,
+            "right": 190.8869781494141,
+            "top": -6.6006927490234375,
+            "width": 5.2321014404296875,
+            "x": 185.6548767089844,
+            "y": -6.6006927490234375
+          },
+          "name": "选择Naval Station Bremerton"
+        },
+        {
+          "box": {
+            "bottom": -76.65052795410156,
+            "height": 5.2321014404296875,
+            "left": 152.56138610839844,
+            "right": 157.79348754882812,
+            "top": -81.88262939453125,
+            "width": 5.2321014404296875,
+            "x": 152.56138610839844,
+            "y": -81.88262939453125
+          },
+          "name": "选择Submarine Base Bangor"
+        },
+        {
+          "box": {
+            "bottom": -63.57732391357422,
+            "height": 5.232109069824219,
+            "left": 191.5742645263672,
+            "right": 196.80636596679688,
+            "top": -68.80943298339844,
+            "width": 5.2321014404296875,
+            "x": 191.5742645263672,
+            "y": -68.80943298339844
+          },
+          "name": "选择Keyport"
+        },
+        {
+          "box": {
+            "bottom": -3.4775390625,
+            "height": 5.2321014404296875,
+            "left": 224.1870574951172,
+            "right": 229.41915893554688,
+            "top": -8.709640502929688,
+            "width": 5.2321014404296875,
+            "x": 224.1870574951172,
+            "y": -8.709640502929688
+          },
+          "name": "选择Manchester Fuel Depot"
+        }
+      ],
+      "mapTop": 4331,
+      "page": "detail-kitsap",
+      "scrollWidth": 375,
+      "width": 390
+    }
+  ],
+  "confirmedBehaviors": {
+    "evidenceKitsapTotal": 55,
+    "evidenceKitsapVisible": 12,
+    "emptySearchShowsNoDedicatedMessage": true,
+    "sitesAfterBack": {
+      "query": "",
+      "rows": 66
+    },
+    "drawerEscapeDidNotClose": true,
+    "modelSwitchToChinhaeSucceeded": true
+  },
+  "scope": "Current production dist served locally; no application code changes; responsive testing is browser viewport simulation. UI selector mismatches during automation were resolved using current DOM semantics and are not recorded as application errors.",
+  "desktopMap": {
+    "mapWidth": 921,
+    "markers": [
+      {
+        "circle": {
+          "bottom": 343.93994140625,
+          "height": 20.677001953125,
+          "left": 642.9468994140625,
+          "right": 663.6239013671875,
+          "top": 323.262939453125,
+          "width": 20.677001953125,
+          "x": 642.9468994140625,
+          "y": 323.262939453125
+        },
+        "name": "选择Naval Base Kitsap - Bangor"
+      },
+      {
+        "circle": {
+          "bottom": 571.4649658203125,
+          "height": 16.08203125,
+          "left": 741.82861328125,
+          "right": 757.91064453125,
+          "top": 555.3829345703125,
+          "width": 16.08203125,
+          "x": 741.82861328125,
+          "y": 555.3829345703125
+        },
+        "name": "选择Naval Station Bremerton"
+      },
+      {
+        "circle": {
+          "bottom": 340.06817626953125,
+          "height": 16.08209228515625,
+          "left": 640.10791015625,
+          "right": 656.1900634765625,
+          "top": 323.986083984375,
+          "width": 16.0821533203125,
+          "x": 640.10791015625,
+          "y": 323.986083984375
+        },
+        "name": "选择Submarine Base Bangor"
+      },
+      {
+        "circle": {
+          "bottom": 380.2517700195313,
+          "height": 16.082122802734375,
+          "left": 760.023193359375,
+          "right": 776.1052856445312,
+          "top": 364.1696472167969,
+          "width": 16.08209228515625,
+          "x": 760.023193359375,
+          "y": 364.1696472167969
+        },
+        "name": "选择Keyport"
+      },
+      {
+        "circle": {
+          "bottom": 564.982666015625,
+          "height": 16.0821533203125,
+          "left": 860.266357421875,
+          "right": 876.3484497070312,
+          "top": 548.9005126953125,
+          "width": 16.08209228515625,
+          "x": 860.266357421875,
+          "y": 548.9005126953125
+        },
+        "name": "选择Manchester Fuel Depot"
+      }
+    ]
+  },
+  "runtimeMessages": []
+}

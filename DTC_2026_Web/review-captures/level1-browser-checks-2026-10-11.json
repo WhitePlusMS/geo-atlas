@@ -1,0 +1,781 @@
+{
+  "checked_at": "2026-10-11T14:08:49.671Z",
+  "portable_file_direct_open": "NOT_VERIFIED_BROWSER_PROTOCOL_BLOCKED",
+  "portable_html_sha256": "611d7248511d3ca51baadadc6c98c9d7d9b5dbd82466bf2e84c04b2122f7513d",
+  "runtime_file_count": 7,
+  "profile_checks": [
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Fort Wainwright",
+      "record_no": 1,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Fort Greely",
+      "record_no": 2,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 3,
+      "name": "Joint Base Elmendorf-Richardson",
+      "record_no": 3,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Eielson Air Force Base",
+      "record_no": 4,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Eareckson Air Station",
+      "record_no": 5,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Clear Space Force Station",
+      "record_no": 6,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 4,
+      "name": "Joint Base Lewis-McChord",
+      "record_no": 7,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 5,
+      "name": "Naval Base Kitsap",
+      "record_no": 8,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 5,
+      "name": "Naval Station Everett",
+      "record_no": 9,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Naval Air Station Whidbey Island",
+      "record_no": 10,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Fairchild Air Force Base",
+      "record_no": 11,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 4,
+      "name": "Naval Base Ventura County",
+      "record_no": 12,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 7,
+      "name": "Naval Base Coronado",
+      "record_no": 13,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Naval Base San Diego",
+      "record_no": 14,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 3,
+      "name": "Naval Base Point Loma",
+      "record_no": 15,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Marine Corps Air Station Miramar",
+      "record_no": 16,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Marine Corps Base Camp Pendleton",
+      "record_no": 17,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Beale Air Force Base",
+      "record_no": 18,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Travis Air Force Base",
+      "record_no": 19,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Vandenberg Space Force Base",
+      "record_no": 20,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Schofield Barracks",
+      "record_no": 21,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Fort Shafter",
+      "record_no": 22,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Wheeler Army Airfield",
+      "record_no": 23,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 4,
+      "name": "Joint Base Pearl Harbor-Hickam",
+      "record_no": 24,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Pacific Missile Range Facility, Barking Sands",
+      "record_no": 25,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 5,
+      "name": "Marine Corps Base Hawaii",
+      "record_no": 26,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Wake Island Airfield",
+      "record_no": 27,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Naval Base Guam",
+      "record_no": 28,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Marine Corps Base Camp Blaz",
+      "record_no": 29,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Andersen Air Force Base",
+      "record_no": 30,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 3,
+      "name": "Army Garrison-Kwajalein Atoll",
+      "record_no": 31,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Camp Zama",
+      "record_no": 32,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 1,
+      "name": "Shariki Communications Site",
+      "record_no": 33,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Kyogamisaki Communications Site",
+      "record_no": 34,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Fleet Activities Yokosuka",
+      "record_no": 35,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 4,
+      "name": "Fleet Activities Sasebo",
+      "record_no": 36,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Naval Air Facility Atsugi",
+      "record_no": 37,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Marine Corps Air Station Iwakuni",
+      "record_no": 38,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Yokota Air Base",
+      "record_no": 39,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Misawa Air Base",
+      "record_no": 40,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 3,
+      "name": "Army Garrison Okinawa",
+      "record_no": 41,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 6,
+      "name": "Marine Corps Base Camp Butler",
+      "record_no": 42,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Marine Corps Air Station Futenma",
+      "record_no": 43,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Kadena Air Base",
+      "record_no": 44,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Camp Humphreys",
+      "record_no": 45,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 5,
+      "name": "Army Garrison Daegu",
+      "record_no": 46,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 3,
+      "name": "Army Garrison Yongsan-Casey",
+      "record_no": 47,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 1,
+      "name": "Fleet Activities Chinhae",
+      "record_no": 48,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Marine Corps Installation Camp Mujuk",
+      "record_no": 49,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Osan Air Base",
+      "record_no": 50,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Kunsan Air Base",
+      "record_no": 51,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Antonio Bautista Air Base",
+      "record_no": 52,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Basa Air Base",
+      "record_no": 53,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Fort Magsaysay",
+      "record_no": 54,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Lumbia Airport",
+      "record_no": 55,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Benito Ebuen Air Base",
+      "record_no": 56,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Naval Base Camilo Osias",
+      "record_no": 57,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Lal-lo Airport",
+      "record_no": 58,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Camp Melchor Dela",
+      "record_no": 59,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 1,
+      "name": "Balabac Island",
+      "record_no": 60,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 1,
+      "name": "Navy Region Center Singapore",
+      "record_no": 61,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Royal Australian Air Force Base Darwin",
+      "record_no": 62,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Robertson Barracks",
+      "record_no": 63,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Royal Australian Air Force Base Tindal",
+      "record_no": 64,
+      "sections": 3,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 3,
+      "name": "Naval Communications Station Harold E. Holt",
+      "record_no": 65,
+      "sections": 4,
+      "record_number_matches": true
+    },
+    {
+      "actual_reviewer": true,
+      "approved": true,
+      "map_anchors": 0,
+      "name": "Naval Support Facility Diego Garcia",
+      "record_no": 66,
+      "sections": 3,
+      "record_number_matches": true
+    }
+  ],
+  "multi_site_checks": [
+    {
+      "record_no": 3,
+      "mapped": 2,
+      "passed": true
+    },
+    {
+      "record_no": 7,
+      "mapped": 3,
+      "passed": true
+    },
+    {
+      "record_no": 8,
+      "mapped": 4,
+      "passed": true
+    },
+    {
+      "record_no": 9,
+      "mapped": 4,
+      "passed": true
+    },
+    {
+      "record_no": 12,
+      "mapped": 3,
+      "passed": true
+    },
+    {
+      "record_no": 13,
+      "mapped": 6,
+      "passed": true
+    },
+    {
+      "record_no": 15,
+      "mapped": 2,
+      "passed": true
+    },
+    {
+      "record_no": 24,
+      "mapped": 3,
+      "passed": true
+    },
+    {
+      "record_no": 26,
+      "mapped": 4,
+      "passed": true
+    },
+    {
+      "record_no": 31,
+      "mapped": 2,
+      "passed": true
+    },
+    {
+      "record_no": 36,
+      "mapped": 3,
+      "passed": true
+    },
+    {
+      "record_no": 41,
+      "mapped": 2,
+      "passed": true
+    },
+    {
+      "record_no": 42,
+      "mapped": 5,
+      "passed": true
+    },
+    {
+      "record_no": 46,
+      "mapped": 4,
+      "passed": true
+    },
+    {
+      "record_no": 47,
+      "mapped": 2,
+      "passed": true
+    },
+    {
+      "record_no": 65,
+      "mapped": 2,
+      "passed": true
+    }
+  ],
+  "responsive_checks": [
+    {
+      "canvas": 0,
+      "heading": "概览",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/"
+    },
+    {
+      "canvas": 0,
+      "heading": "开放系统模型",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/model"
+    },
+    {
+      "canvas": 0,
+      "heading": "站点详情",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/sites/crs-r47589-013"
+    },
+    {
+      "canvas": 0,
+      "heading": "站点详情",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/sites/crs-r47589-033"
+    },
+    {
+      "canvas": 0,
+      "heading": "站点详情",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/sites/crs-r47589-048"
+    },
+    {
+      "canvas": 0,
+      "heading": "站点详情",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/sites/crs-r47589-065"
+    },
+    {
+      "canvas": 1,
+      "heading": "代表点地图",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/map"
+    },
+    {
+      "canvas": 0,
+      "heading": "参考站点",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/sites"
+    },
+    {
+      "canvas": 0,
+      "heading": "BSR 统计",
+      "reviewLinkCount": 0,
+      "scrollWidth": 375,
+      "width": 375,
+      "route": "/statistics"
+    }
+  ],
+  "candidate_review_removed": true,
+  "model_json_verified": {
+    "characters": 615772,
+    "entity": true,
+    "reviewer": "Codex",
+    "source_versions": true,
+    "spatial": true
+  },
+  "model_concept_drawer_verified": true,
+  "Holt_AreaB_selection_verified": true,
+  "invalid_site_graceful": true,
+  "network_resource_observation": {
+    "result": {
+      "type": "string",
+      "value": "[]"
+    }
+  },
+  "errors": [],
+  "static_errors": [],
+  "static_root_verified": true,
+  "home_review_results_link_verified": true,
+  "passed": true,
+  "globe_optimization_verified": true
+}

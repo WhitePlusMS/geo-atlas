@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-12T02:16:20.176Z",
+  "portable_html_sha256": "ef50071fc2f2ea92791f4f58c391c7f2a3a923716bdb42b1a7258f213857f5f6",
+  "interaction": {
+    "clusters": 1,
+    "markers": [
+      {
+        "height": 20,
+        "text": "41",
+        "width": 20
+      },
+      {
+        "height": 20,
+        "text": "44",
+        "width": 20
+      }
+    ],
+    "zoom": "91",
+    "selected": {
+      "coordinates": "26.3486°, 127.7744°",
+      "name": "Kadena Air Base"
+    },
+    "presentation": true,
+    "navy": {
+      "locatorCount": 17
+    },
+    "maxZoom": {
+      "clusters": 0,
+      "cores": [
+        {
+          "height": 20,
+          "text": "41",
+          "width": 20
+        },
+        {
+          "height": 20,
+          "text": "42",
+          "width": 20
+        },
+        {
+          "height": 20,
+          "text": "43",
+          "width": 20
+        },
+        {
+          "height": 20,
+          "text": "44",
+          "width": 20
+        }
+      ],
+      "zoom": "100"
+    }
+  },
+  "responsive": [
+    {
+      "canvas": {
+        "bottom": 1206.703125,
+        "height": 540,
+        "left": 15,
+        "right": 360,
+        "top": 666.703125,
+        "width": 345,
+        "x": 15,
+        "y": 666.703125
+      },
+      "client": 375,
+      "page": "globe",
+      "scroll": 375,
+      "width": 390
+    }
+  ],
+  "errors": []
+}

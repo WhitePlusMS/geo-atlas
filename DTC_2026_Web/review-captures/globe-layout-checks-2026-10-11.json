@@ -1,0 +1,14 @@
+{
+  "passed": 9,
+  "checks": [
+    "all 66 source records have an explicit display category",
+    "isolated points remain independently selectable",
+    "coincident points are grouped without losing records",
+    "merged centers cannot collide with neighboring groups",
+    "expanded small groups have distinct hit targets and original anchors",
+    "even 66 coincident records can be expanded within a mobile viewport",
+    "labels can appear without covering markers, each other or viewport edges",
+    "backside and limb points are occluded, front points remain visible",
+    "layout does not mutate approved source records or coordinates"
+  ]
+}

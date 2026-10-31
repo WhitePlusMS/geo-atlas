@@ -1,0 +1,123 @@
+{
+  "checked_at": "2026-10-11T13:48:49.672Z",
+  "layout_checks": 9,
+  "global_scene_visual_verified": true,
+  "expanded_okinawa_verified": true,
+  "expanded_okinawa": {
+    "labels": 4,
+    "leader_lines": 4,
+    "records": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "sizes": [
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  "selected_card": {
+    "approved": true,
+    "coordinate": "26.3486°, 127.7744°",
+    "marker_width": 20,
+    "name": "Kadena Air Base"
+  },
+  "max_zoom": {
+    "point_sizes": [
+      20,
+      20,
+      20,
+      20
+    ],
+    "selected_width": 20,
+    "zoom": 100
+  },
+  "presentation_toggle_verified": true,
+  "service_filter": {
+    "navyPressed": "海军 16",
+    "options": 17,
+    "selectedCardCleared": true
+  },
+  "mobile_global": {
+    "markerCount": 10,
+    "scrollWidth": 375,
+    "status": "全球总览64 / 66 站点在视窗中",
+    "viewport": {
+      "bottom": 1230.375,
+      "height": 540,
+      "left": 15,
+      "right": 360,
+      "top": 690.375,
+      "width": 345,
+      "x": 15,
+      "y": 690.375
+    },
+    "width": 375
+  },
+  "mobile_expanded": {
+    "points": [
+      {
+        "bottom": 220.6875,
+        "height": 28,
+        "left": 171.734375,
+        "right": 199.734375,
+        "top": 192.6875,
+        "width": 28,
+        "x": 171.734375,
+        "y": 192.6875
+      },
+      {
+        "bottom": 262.6875,
+        "height": 28,
+        "left": 213.734375,
+        "right": 241.734375,
+        "top": 234.6875,
+        "width": 28,
+        "x": 213.734375,
+        "y": 234.6875
+      },
+      {
+        "bottom": 304.6875,
+        "height": 28,
+        "left": 171.734375,
+        "right": 199.734375,
+        "top": 276.6875,
+        "width": 28,
+        "x": 171.734375,
+        "y": 276.6875
+      },
+      {
+        "bottom": 262.6875,
+        "height": 28,
+        "left": 129.734375,
+        "right": 157.734375,
+        "top": 234.6875,
+        "width": 28,
+        "x": 129.734375,
+        "y": 234.6875
+      }
+    ],
+    "records": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "scrollWidth": 390,
+    "sizes": [
+      20,
+      20,
+      20,
+      20
+    ],
+    "width": 390
+  },
+  "console_errors": [],
+  "passed": true,
+  "portable_map_verified": true,
+  "demo_toggle_verified": true,
+  "portable_html_sha256": "611d7248511d3ca51baadadc6c98c9d7d9b5dbd82466bf2e84c04b2122f7513d"
+}

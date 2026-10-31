@@ -258,6 +258,7 @@ export function createGlobeVisuals(renderer: THREE.WebGLRenderer): GlobeVisuals 
   let localPatch: THREE.Mesh<THREE.BufferGeometry, THREE.MeshStandardMaterial> | null = null
   let patchKey = ''
   let patchCreatedAt = 0
+  const viewportSize = new THREE.Vector2()
   return {
     group,
     applyGeography(collection) {
@@ -272,13 +273,23 @@ export function createGlobeVisuals(renderer: THREE.WebGLRenderer): GlobeVisuals 
       const distance = cameraPosition.length()
       if (localPatch) localPatch.visible = distance < 4.8
       if (distance < 4.8 && geography) {
-        const longitude = Math.round(THREE.MathUtils.radToDeg(Math.atan2(cameraPosition.x, cameraPosition.z)) / 8) * 8
-        const latitude = Math.round(THREE.MathUtils.radToDeg(Math.asin(cameraPosition.y / distance)) / 6) * 6
-        const key = `${longitude}:${latitude}`
+        const cameraLongitude = THREE.MathUtils.radToDeg(Math.atan2(cameraPosition.x, cameraPosition.z))
+        const cameraLatitude = THREE.MathUtils.radToDeg(Math.asin(cameraPosition.y / distance))
+        // 近景按视距缩小纹理覆盖范围，避免把固定范围的纹理像素放大到整个屏幕。
+        // 预留视窗和中心点取整余量；经度范围还要补偿高纬度及宽屏。
+        renderer.getSize(viewportSize)
+        const latitudeView = (distance - earthRadius) * 40.5
+        const longitudeView = latitudeView * Math.max(1, viewportSize.x / Math.max(1, viewportSize.y)) / Math.max(0.1, Math.cos(THREE.MathUtils.degToRad(cameraLatitude)))
+        const span = (maximum: number, needed: number) => maximum / 2 ** Math.max(0, Math.floor(Math.log2(maximum / Math.max(needed, 0.001))))
+        const latitudeSpan = span(20, latitudeView)
+        const longitudeSpan = span(24, longitudeView)
+        const longitude = Math.round(cameraLongitude / (longitudeSpan / 4)) * (longitudeSpan / 4)
+        const latitude = THREE.MathUtils.clamp(Math.round(cameraLatitude / (latitudeSpan / 4)) * (latitudeSpan / 4), -89.5 + latitudeSpan / 2, 89.5 - latitudeSpan / 2)
+        const key = `${longitude}:${latitude}:${longitudeSpan}:${latitudeSpan}`
         const now = performance.now()
         // 地区移动超过分块后才重绘，复用局部层；限制重建频率以免拖动时反复分配。
         if (key !== patchKey && now - patchCreatedAt > 400) {
-          const bounds = { west: longitude - 12, east: longitude + 12, south: Math.max(-89.5, latitude - 10), north: Math.min(89.5, latitude + 10) }
+          const bounds = { west: longitude - longitudeSpan / 2, east: longitude + longitudeSpan / 2, south: latitude - latitudeSpan / 2, north: latitude + latitudeSpan / 2 }
           const map = geographicTexture(geography, renderer, bounds, 2048)
           const material = oceanMaterial.clone(); material.map = map
           const patch = new THREE.Mesh(geographicPatch(bounds), material)

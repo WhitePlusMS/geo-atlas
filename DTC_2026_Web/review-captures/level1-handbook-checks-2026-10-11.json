@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-11T02:27:16.830Z",
+  "passed": true,
+  "articles": 66,
+  "toc_links": 66,
+  "gis_links": 66,
+  "desktop_horizontal_overflow": false,
+  "mobile_requested_viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile_actual": {
+    "articles": 66,
+    "horizontalOverflow": false,
+    "pageWidth": 375,
+    "viewportWidth": 375
+  },
+  "holt_directory_navigation": true,
+  "holt_facts_expanded": true,
+  "holt_relative_gis_link_loaded": true,
+  "software_link_route": "crs-r47589-065",
+  "protocol": "HTTP",
+  "local_file_double_click_verified": false
+}

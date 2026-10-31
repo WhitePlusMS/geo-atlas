@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "file_count": 10,
+  "checks": {
+    "DTC_2026_Web\\public\\data\\.checksums.json": true,
+    "DTC_2026_Web\\public\\data\\bsr.csv": true,
+    "DTC_2026_Web\\public\\data\\evidence.csv": true,
+    "DTC_2026_Web\\public\\data\\frontend_meta.json": true,
+    "DTC_2026_Web\\public\\data\\profiles.json": true,
+    "DTC_2026_Web\\public\\data\\sites.geojson": true,
+    "DTC_2026_Web\\public\\data\\source_registry.json": true,
+    "DTC_2026_Web\\public\\data\\world_reference.geojson": true,
+    "DTC_2026_Level1_资料包\\data\\base_profiles.json": true,
+    "DTC_2026_Level1_资料包\\evidence\\field_evidence.csv": true
+  },
+  "review_inputs_changed": false
+}

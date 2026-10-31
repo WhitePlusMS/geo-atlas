@@ -1,0 +1,47 @@
+
+> dtc-2026-web@0.1.0 prebuild
+> npm run data:sync && npm run data:verify
+
+
+> dtc-2026-web@0.1.0 data:sync
+> node scripts/sync-data.mjs
+
+synced 6 frontend data files
+
+> dtc-2026-web@0.1.0 data:verify
+> node scripts/verify-data.mjs
+
+data verification passed: sites=66, profiles=66, bsr=1626, evidence=3747, reviewed=66, approved=66, coordinate_evidence=18+1+47, locality=1, multi_site_mapped=16, mapped_components=51, areas=49
+
+> dtc-2026-web@0.1.0 build
+> vue-tsc -b && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 113 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                              0.84 kB │ gzip:   0.56 kB
+dist/assets/ServiceBadge-BgDnDVLi.css        0.36 kB │ gzip:   0.24 kB
+dist/assets/OverviewView-Dqkf2FBS.css        1.42 kB │ gzip:   0.51 kB
+dist/assets/SourceDrawer-BeSzgSbe.css        1.82 kB │ gzip:   0.69 kB
+dist/assets/StatisticsView-BKDFSJdK.css      2.83 kB │ gzip:   0.84 kB
+dist/assets/SitesView-nv6crnTM.css           3.36 kB │ gzip:   0.95 kB
+dist/assets/SiteDetailView-B6tdB6HR.css      5.39 kB │ gzip:   1.27 kB
+dist/assets/SpatialDetailMap-DMMeq0RO.css    6.17 kB │ gzip:   1.61 kB
+dist/assets/ModelView-Cj93tLts.css           8.44 kB │ gzip:   1.85 kB
+dist/assets/index-DcqViKrq.css              12.66 kB │ gzip:   3.53 kB
+dist/assets/MapView-BC4x4Qlq.css            14.12 kB │ gzip:   3.40 kB
+dist/assets/statistics-DG4d-pFA.js           0.42 kB │ gzip:   0.28 kB
+dist/assets/ServiceBadge-DwN0KSZc.js         0.47 kB │ gzip:   0.34 kB
+dist/assets/SourceDrawer-D9G6WIHA.js         2.65 kB │ gzip:   1.43 kB
+dist/assets/StatisticsView-CZmOwv4o.js       4.31 kB │ gzip:   2.17 kB
+dist/assets/SitesView-CcxiKsie.js            6.69 kB │ gzip:   2.89 kB
+dist/assets/OverviewView-CscDYwO6.js         8.60 kB │ gzip:   3.43 kB
+dist/assets/SiteDetailView-B7gEUDHe.js       9.95 kB │ gzip:   3.66 kB
+dist/assets/mapMarkers-TRaeUbum.js          11.32 kB │ gzip:   5.32 kB
+dist/assets/ModelView-PPVzpyii.js           12.36 kB │ gzip:   5.12 kB
+dist/assets/SpatialDetailMap-C5T0-5Uq.js    14.63 kB │ gzip:   6.41 kB
+dist/assets/index-DgX4CUdw.js              125.55 kB │ gzip:  48.92 kB
+dist/assets/MapView-DM3PZ8wj.js            558.32 kB │ gzip: 145.84 kB
+✓ built in 2.22s

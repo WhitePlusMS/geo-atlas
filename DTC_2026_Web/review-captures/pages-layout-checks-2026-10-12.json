@@ -1,0 +1,15 @@
+{
+  "passed": 8,
+  "checks": [
+    "all 66 entities retain one overview and their independently located members",
+    "all approved overview/member views have finite projections and separated visible markers",
+    "seven coincident markers remain distinct in a narrow viewport",
+    "Kitsap overview and Bangor member retain their real projections after separation",
+    "layout and model construction work with deeply frozen approved inputs",
+    "structured model preserves complete spatial evidence and provenance",
+    "all actual archived source states have readable labels",
+    "partial and unknown dates are not converted into invented complete dates"
+  ],
+  "real_view_cases": 792,
+  "source_entities": 66
+}

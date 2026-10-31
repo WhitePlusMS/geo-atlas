@@ -1,0 +1,534 @@
+{
+  "checked_at": "2026-10-10T10:12:16.116Z",
+  "scope": "local final build at /dtc/",
+  "checks": [
+    {
+      "record_no": 1,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 2,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 3,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 4,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 5,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 6,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 7,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 8,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 9,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 10,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 11,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 12,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 13,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 14,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 15,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 16,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 17,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 18,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 19,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 20,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 21,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 22,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 23,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 24,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 25,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 26,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 27,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 28,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 29,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 30,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 31,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 32,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 33,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 34,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 35,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 36,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 37,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 38,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 39,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 40,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 41,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 42,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 43,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 44,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 45,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 46,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 47,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 48,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 49,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 50,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 51,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 52,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 53,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 54,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 55,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 56,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 57,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 58,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 59,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 60,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 61,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 62,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 63,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 64,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 65,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    },
+    {
+      "record_no": 66,
+      "correct_record": true,
+      "approved": true,
+      "reviewer": true,
+      "evidence": true,
+      "locality": true
+    }
+  ]
+}

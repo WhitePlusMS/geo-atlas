@@ -1,0 +1,10 @@
+{
+  "CheckedAtUtc": "2026-10-11T12:17:55.6844442+00:00",
+  "ProcessId": 11360,
+  "CommandLine": "\"C:\\Program Files\\nodejs\\node.exe\" node_modules\\vite\\bin\\vite.js preview --host 127.0.0.1 --port 4180 --strictPort",
+  "Url": "http://127.0.0.1:4180/",
+  "HttpStatus": 200,
+  "Mode": "production_preview",
+  "KeptRunningByUserRequest": true,
+  "ManagedSession": 12266
+}

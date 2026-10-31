@@ -1,0 +1,3245 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-12T02:11:32.387Z",
+  "portable_html_sha256": "ef50071fc2f2ea92791f4f58c391c7f2a3a923716bdb42b1a7258f213857f5f6",
+  "profile_checks": [
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Fort Wainwright",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-001",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Fort Greely",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-002",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Joint Base Elmendorf-Richardson",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-003",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Eielson Air Force Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-004",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Eareckson Air Station",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-005",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Clear Space Force Station",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-006",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Joint Base Lewis-McChord",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-007",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Naval Base Kitsap",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-008",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Naval Station Everett",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-009",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Naval Air Station Whidbey Island",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-010",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Fairchild Air Force Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-011",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Naval Base Ventura County",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-012",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 6,
+      "relations": 9,
+      "scroll": 375,
+      "title": "Naval Base Coronado",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-013",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Naval Base San Diego",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-014",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Naval Base Point Loma",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-015",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Marine Corps Air Station Miramar",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-016",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Marine Corps Base Camp Pendleton",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-017",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Beale Air Force Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-018",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Travis Air Force Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-019",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Vandenberg Space Force Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-020",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Schofield Barracks",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-021",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Fort Shafter",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-022",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Wheeler Army Airfield",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-023",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Joint Base Pearl Harbor-Hickam",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-024",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Pacific Missile Range Facility, Barking Sands",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-025",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Marine Corps Base Hawaii",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-026",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Wake Island Airfield",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-027",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Naval Base Guam",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-028",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Marine Corps Base Camp Blaz",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-029",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Andersen Air Force Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-030",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Army Garrison-Kwajalein Atoll",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-031",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Camp Zama",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-032",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Shariki Communications Site",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-033",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Kyogamisaki Communications Site",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-034",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Fleet Activities Yokosuka",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-035",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Fleet Activities Sasebo",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-036",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Naval Air Facility Atsugi",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-037",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Marine Corps Air Station Iwakuni",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-038",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Yokota Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-039",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Misawa Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-040",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Army Garrison Okinawa",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-041",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 5,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Marine Corps Base Camp Butler",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-042",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Marine Corps Air Station Futenma",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-043",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Kadena Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-044",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Camp Humphreys",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-045",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Army Garrison Daegu",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-046",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Army Garrison Yongsan-Casey",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-047",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Fleet Activities Chinhae",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-048",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Marine Corps Installation Camp Mujuk",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-049",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Osan Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-050",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Kunsan Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-051",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Antonio Bautista Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-052",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Basa Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-053",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Fort Magsaysay",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-054",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Lumbia Airport",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-055",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Benito Ebuen Air Base",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-056",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Naval Base Camilo Osias",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-057",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Lal-lo Airport",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-058",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 1,
+      "scroll": 375,
+      "title": "Camp Melchor Dela",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-059",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 0,
+      "scroll": 375,
+      "title": "Balabac Island",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-060",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Navy Region Center Singapore",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-061",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Royal Australian Air Force Base Darwin",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-062",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Robertson Barracks",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-063",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Royal Australian Air Force Base Tindal",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-064",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Naval Communications Station Harold E. Holt",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-065",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 3,
+      "mappedMembers": 0,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Naval Support Facility Diego Garcia",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-066",
+      "width": 375
+    }
+  ],
+  "multi_site_checks": [
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Joint Base Elmendorf-Richardson",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-003",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Joint Base Lewis-McChord",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-007",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Naval Base Kitsap",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-008",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Naval Station Everett",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-009",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Naval Base Ventura County",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-012",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 6,
+      "relations": 9,
+      "scroll": 375,
+      "title": "Naval Base Coronado",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-013",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Naval Base Point Loma",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-015",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Joint Base Pearl Harbor-Hickam",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-024",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Marine Corps Base Hawaii",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-026",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Army Garrison-Kwajalein Atoll",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-031",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 3,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Fleet Activities Sasebo",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-036",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 3,
+      "scroll": 375,
+      "title": "Army Garrison Okinawa",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-041",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 5,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Marine Corps Base Camp Butler",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-042",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 4,
+      "relations": 6,
+      "scroll": 375,
+      "title": "Army Garrison Daegu",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-046",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 5,
+      "scroll": 375,
+      "title": "Army Garrison Yongsan-Casey",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-047",
+      "width": 375
+    },
+    {
+      "approved": "画像来源审核通过",
+      "chapters": 4,
+      "mappedMembers": 2,
+      "relations": 2,
+      "scroll": 375,
+      "title": "Naval Communications Station Harold E. Holt",
+      "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-065",
+      "width": 375
+    }
+  ],
+  "responsive_checks": [
+    {
+      "client": 375,
+      "page": "statistics",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 375,
+      "nav": [
+        {
+          "left": 14,
+          "name": "概览",
+          "right": 79.390625
+        },
+        {
+          "left": 84.390625,
+          "name": "代表点地图",
+          "right": 149.796875
+        },
+        {
+          "left": 154.796875,
+          "name": "参考站点",
+          "right": 220.1875
+        },
+        {
+          "left": 225.1875,
+          "name": "开放系统模型",
+          "right": 290.59375
+        },
+        {
+          "left": 295.59375,
+          "name": "BSR 统计",
+          "right": 361
+        }
+      ],
+      "page": "sites",
+      "scroll": 375,
+      "tableScroll": 311,
+      "tableWidth": 311,
+      "width": 390
+    },
+    {
+      "client": 375,
+      "cores": [
+        20,
+        20,
+        20,
+        20.000015258789062
+      ],
+      "mapTop": 941.21875,
+      "page": "detail-map",
+      "points": [
+        {
+          "name": "选择Naval Base Kitsap - Bangor",
+          "transform": "translate(121.85224498296586,118.30169191243573)"
+        },
+        {
+          "name": "选择Naval Station Bremerton",
+          "transform": "translate(154.78144837250701,265.9001226382481)"
+        },
+        {
+          "name": "选择Submarine Base Bangor",
+          "transform": "translate(80.4714727923818,102.48645581204873)"
+        },
+        {
+          "name": "选择Keyport",
+          "transform": "translate(164.6207262921993,136.96010106543088)"
+        },
+        {
+          "name": "选择Manchester Fuel Depot",
+          "transform": "translate(218.83011739638312,261.5289262971858)"
+        }
+      ],
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 375,
+      "instanceTop": 636.9375,
+      "page": "model",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 375,
+      "page": "overview",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 375,
+      "dialog": {
+        "bottom": 844,
+        "height": 844,
+        "left": 8.40625,
+        "right": 375,
+        "top": 0,
+        "width": 366.59375,
+        "x": 8.40625,
+        "y": 0
+      },
+      "open": true,
+      "page": "source-dialog",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "canvas": {
+        "bottom": 1206.703125,
+        "height": 540,
+        "left": 15,
+        "right": 360,
+        "top": 666.703125,
+        "width": 345,
+        "x": 15,
+        "y": 666.703125
+      },
+      "client": 375,
+      "page": "globe",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 375,
+      "empty": "本记录没有独立具名关系可以查看属性、空间与证据，或切换到多设施示例。",
+      "page": "model-empty-relations",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 390,
+      "message": "未找到参考站点当前目录没有这个站点编号，请返回目录选择站点。← 返回参考站点",
+      "page": "invalid-site",
+      "scroll": 390,
+      "width": 390
+    }
+  ],
+  "candidate_review_removed": true,
+  "resource_names": [],
+  "ui_checks": {
+    "checkedAt": "2026-10-12T01:17:33.302Z",
+    "catalog": {
+      "space": {
+        "rows": 1,
+        "text": "06Clear Space Force Station阿拉斯加天太空军代表位置✓ 来源审核通过",
+        "url": "http://127.0.0.1:4180/#/sites?service=space"
+      },
+      "returnState": {
+        "query": "Kitsap",
+        "rows": 1,
+        "url": "http://127.0.0.1:4180/#/sites?q=Kitsap"
+      },
+      "empty": true,
+      "multiCount": 16
+    },
+    "detail": {
+      "allEvidence": 55,
+      "sourceOpen": {
+        "body": "来源详情×SHA-256 已计算U.S. Defense Infrastructure in the Indo-Pacific: Background and Issues for CongressCongressional Research Service发布日期2023年6月6日资料截至2023年6月6日获取时间未标注归档状态SHA-256 已计算打开原始来源 ↗来源指纹与使用说明来源编号input-01-crs-r47589SHA-256FD06E0E5EF3C6850FB2E3A3398FA3E44663D010016D90F7FF7F750CC48C40836权利记录组委会条款未归档原始文献外发未完成权利复核事实引用与原始文献外发范围以保存的来源记录为准。按 Esc 或点击右上角关闭，返回原来的证据位置。",
+        "dialog": true,
+        "focused": "关闭来源详情"
+      },
+      "sourceClose": {
+        "closed": true,
+        "focusedText": "U.S. Defense Infrastructure in the Indo-Pacific: Background and Issues for Congress ↗"
+      },
+      "mapDefault": {
+        "cores": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "leaders": 2,
+        "positions": [
+          {
+            "name": "选择Naval Base Kitsap - Bangor",
+            "transform": "translate(421.07938257222867,135.34840630903622)"
+          },
+          {
+            "name": "选择Naval Station Bremerton",
+            "transform": "translate(469.1431475099082,326.83967338291495)"
+          },
+          {
+            "name": "选择Submarine Base Bangor",
+            "transform": "translate(379.6986103816445,119.53317020864945)"
+          },
+          {
+            "name": "选择Keyport",
+            "transform": "translate(481.75964097144913,161.50529088228637)"
+          },
+          {
+            "name": "选择Manchester Fuel Depot",
+            "transform": "translate(551.2700698872977,321.23467162300443)"
+          }
+        ],
+        "width": 935
+      },
+      "mapZoomed": {
+        "cores": [
+          20,
+          20
+        ],
+        "scale": "＋2.0×−全图聚焦所选"
+      },
+      "selectedRange": {
+        "activeAreas": 1,
+        "selected": "Naval Station Bremerton",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-008?component=crs-r47589-008::component::16ceca1a3b"
+      },
+      "focus": {
+        "area": {
+          "bottom": 846.6263427734375,
+          "height": 276.53619384765625,
+          "left": 347.5503845214844,
+          "right": 784.4976806640625,
+          "top": 570.0901489257812,
+          "width": 436.9472961425781,
+          "x": 347.5503845214844,
+          "y": 570.0901489257812
+        },
+        "selected": "Naval Station Bremerton",
+        "viewport": {
+          "bottom": 918.375,
+          "height": 420,
+          "left": 237,
+          "right": 895,
+          "top": 498.375,
+          "width": 658,
+          "x": 237,
+          "y": 498.375
+        },
+        "zoom": "＋11.2×−全图聚焦所选"
+      }
+    },
+    "model": {
+      "relations": {
+        "count": 5,
+        "names": [
+          "Naval Station Bremerton",
+          "Submarine Base Bangor",
+          "Keyport",
+          "Manchester Fuel Depot",
+          "Jackson Park Housing"
+        ],
+        "url": "http://127.0.0.1:4180/#/model?site=crs-r47589-008&view=relations"
+      },
+      "relationToMap": {
+        "areas": 1,
+        "name": "Naval Station Bremerton",
+        "url": "http://127.0.0.1:4180/#/model?site=crs-r47589-008&view=space&component=crs-r47589-008::component::16ceca1a3b"
+      },
+      "attributes": 10,
+      "evidence": {
+        "count": 12,
+        "total": "字段证据与审核版本55 条字段证据"
+      },
+      "jsonPreview": {
+        "length": 12000,
+        "note": "完整模型 615,772 字符，预览前 12,000 字符；下载保留全部字段与几何。"
+      },
+      "download": {
+        "path": "C:\\Users\\admin\\Downloads\\crs-r47589-008-model.json",
+        "length": 615772,
+        "entity": "crs-r47589-008",
+        "relations": 5,
+        "spatialEvidence": "OSM:relation:3919553"
+      }
+    },
+    "statistics": {
+      "allLabels": [
+        {
+          "client": 618,
+          "scroll": 618,
+          "text": "海军现役"
+        },
+        {
+          "client": 618,
+          "scroll": 618,
+          "text": "空军现役"
+        },
+        {
+          "client": 618,
+          "scroll": 618,
+          "text": "陆军现役"
+        },
+        {
+          "client": 618,
+          "scroll": 618,
+          "text": "陆军预备役"
+        },
+        {
+          "client": 618,
+          "scroll": 618,
+          "text": "空军国民警卫队"
+        },
+        {
+          "client": 626,
+          "scroll": 626,
+          "text": "陆军国民警卫队"
+        },
+        {
+          "client": 626,
+          "scroll": 626,
+          "text": "海军陆战队现役"
+        },
+        {
+          "client": 626,
+          "scroll": 626,
+          "text": "海军预备役"
+        },
+        {
+          "client": 626,
+          "scroll": 626,
+          "text": "海军陆战队预备役"
+        },
+        {
+          "client": 626,
+          "scroll": 626,
+          "text": "空军预备役"
+        },
+        {
+          "client": 634,
+          "scroll": 634,
+          "text": "Washington Headquarters Services"
+        },
+        {
+          "client": 566,
+          "scroll": 566,
+          "text": "White Sands Missile Range"
+        },
+        {
+          "client": 566,
+          "scroll": 566,
+          "text": "Nellis Nttr Pl106 65"
+        },
+        {
+          "client": 566,
+          "scroll": 566,
+          "text": "Fort Bliss"
+        },
+        {
+          "client": 566,
+          "scroll": 566,
+          "text": "Barry M Goldwater Air Force Range"
+        },
+        {
+          "client": 566,
+          "scroll": 566,
+          "text": "Yuma Proving Ground"
+        },
+        {
+          "client": 578,
+          "scroll": 578,
+          "text": "Dugway Proving Ground"
+        },
+        {
+          "client": 578,
+          "scroll": 578,
+          "text": "Fort Wainwright"
+        },
+        {
+          "client": 590,
+          "scroll": 590,
+          "text": "Barry Goldwater Range"
+        },
+        {
+          "client": 578,
+          "scroll": 578,
+          "text": "NAWS China Lake"
+        },
+        {
+          "client": 578,
+          "scroll": 578,
+          "text": "Twentynine Palms Main Base"
+        }
+      ],
+      "charts": [
+        {
+          "label": "全部机构记录数",
+          "rows": 11
+        },
+        {
+          "label": "总面积前10名",
+          "rows": 10
+        }
+      ],
+      "colors": [
+        "rgb(88, 213, 232)",
+        "rgb(145, 170, 255)",
+        "rgb(255, 146, 126)",
+        "rgb(255, 146, 126)",
+        "rgb(145, 170, 255)",
+        "rgb(255, 146, 126)",
+        "rgb(255, 193, 111)",
+        "rgb(88, 213, 232)",
+        "rgb(255, 193, 111)",
+        "rgb(145, 170, 255)",
+        "rgb(196, 207, 223)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)",
+        "rgb(8, 127, 122)"
+      ],
+      "date": "数据截至 2023年9月30日统计口径：Federal DoD Main Report · FY2024查看BSR原表来源 ↗"
+    },
+    "responsive": [
+      {
+        "client": 375,
+        "page": "statistics",
+        "scroll": 375,
+        "width": 390
+      },
+      {
+        "client": 375,
+        "nav": [
+          {
+            "left": 14,
+            "name": "概览",
+            "right": 79.390625
+          },
+          {
+            "left": 84.390625,
+            "name": "代表点地图",
+            "right": 149.796875
+          },
+          {
+            "left": 154.796875,
+            "name": "参考站点",
+            "right": 220.1875
+          },
+          {
+            "left": 225.1875,
+            "name": "开放系统模型",
+            "right": 290.59375
+          },
+          {
+            "left": 295.59375,
+            "name": "BSR 统计",
+            "right": 361
+          }
+        ],
+        "page": "sites",
+        "scroll": 375,
+        "tableScroll": 311,
+        "tableWidth": 311,
+        "width": 390
+      },
+      {
+        "client": 375,
+        "cores": [
+          20,
+          20,
+          20,
+          20.000015258789062
+        ],
+        "mapTop": 941.21875,
+        "page": "detail-map",
+        "points": [
+          {
+            "name": "选择Naval Base Kitsap - Bangor",
+            "transform": "translate(121.85224498296586,118.30169191243573)"
+          },
+          {
+            "name": "选择Naval Station Bremerton",
+            "transform": "translate(154.78144837250701,265.9001226382481)"
+          },
+          {
+            "name": "选择Submarine Base Bangor",
+            "transform": "translate(80.4714727923818,102.48645581204873)"
+          },
+          {
+            "name": "选择Keyport",
+            "transform": "translate(164.6207262921993,136.96010106543088)"
+          },
+          {
+            "name": "选择Manchester Fuel Depot",
+            "transform": "translate(218.83011739638312,261.5289262971858)"
+          }
+        ],
+        "scroll": 375,
+        "width": 390
+      },
+      {
+        "client": 375,
+        "instanceTop": 636.9375,
+        "page": "model",
+        "scroll": 375,
+        "width": 390
+      },
+      {
+        "client": 375,
+        "page": "overview",
+        "scroll": 375,
+        "width": 390
+      },
+      {
+        "client": 375,
+        "dialog": {
+          "bottom": 844,
+          "height": 844,
+          "left": 8.40625,
+          "right": 375,
+          "top": 0,
+          "width": 366.59375,
+          "x": 8.40625,
+          "y": 0
+        },
+        "open": true,
+        "page": "source-dialog",
+        "scroll": 375,
+        "width": 390
+      },
+      {
+        "canvas": {
+          "bottom": 1206.703125,
+          "height": 540,
+          "left": 15,
+          "right": 360,
+          "top": 666.703125,
+          "width": 345,
+          "x": 15,
+          "y": 666.703125
+        },
+        "client": 375,
+        "page": "globe",
+        "scroll": 375,
+        "width": 390
+      },
+      {
+        "client": 375,
+        "empty": "本记录没有独立具名关系可以查看属性、空间与证据，或切换到多设施示例。",
+        "page": "model-empty-relations",
+        "scroll": 375,
+        "width": 390
+      },
+      {
+        "client": 390,
+        "message": "未找到参考站点当前目录没有这个站点编号，请返回目录选择站点。← 返回参考站点",
+        "page": "invalid-site",
+        "scroll": 390,
+        "width": 390
+      }
+    ],
+    "profileChecks": [
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 402,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Fort Wainwright",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-001",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 430,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Fort Greely",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-002",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 456,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Joint Base Elmendorf-Richardson",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-003",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 378,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Eielson Air Force Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-004",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 397,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Eareckson Air Station",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-005",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 329,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Clear Space Force Station",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-006",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 567,
+        "chapters": 4,
+        "cores": [
+          20,
+          19.999996185302734,
+          20
+        ],
+        "mappedMembers": 3,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Joint Base Lewis-McChord",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-007",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 660,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20.000015258789062
+        ],
+        "mappedMembers": 4,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Naval Base Kitsap",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-008",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 814,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 4,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Naval Station Everett",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-009",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 371,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Naval Air Station Whidbey Island",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-010",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 402,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Fairchild Air Force Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-011",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 611,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 3,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Naval Base Ventura County",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-012",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 808,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 6,
+        "relationCount": 9,
+        "scrollWidth": 375,
+        "title": "Naval Base Coronado",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-013",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 386,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Naval Base San Diego",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-014",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 955,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Naval Base Point Loma",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-015",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 375,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Marine Corps Air Station Miramar",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-016",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 381,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Marine Corps Base Camp Pendleton",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-017",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 351,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Beale Air Force Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-018",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 350,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Travis Air Force Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-019",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 403,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Vandenberg Space Force Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-020",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 416,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Schofield Barracks",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-021",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 350,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Fort Shafter",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-022",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 320,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Wheeler Army Airfield",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-023",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 610,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 3,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Joint Base Pearl Harbor-Hickam",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-024",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 401,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Pacific Missile Range Facility, Barking Sands",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-025",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 674,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 4,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Marine Corps Base Hawaii",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-026",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 326,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Wake Island Airfield",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-027",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 378,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Naval Base Guam",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-028",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 323,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Marine Corps Base Camp Blaz",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-029",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 345,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Andersen Air Force Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-030",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 598,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Army Garrison-Kwajalein Atoll",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-031",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 481,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Camp Zama",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-032",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 364,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Shariki Communications Site",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-033",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 364,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Kyogamisaki Communications Site",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-034",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 366,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Fleet Activities Yokosuka",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-035",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 738,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20.000015258789062
+        ],
+        "mappedMembers": 3,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Fleet Activities Sasebo",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-036",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 331,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Naval Air Facility Atsugi",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-037",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 365,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Marine Corps Air Station Iwakuni",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-038",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 364,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Yokota Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-039",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 348,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Misawa Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-040",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 603,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Army Garrison Okinawa",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-041",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 702,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 5,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Marine Corps Base Camp Butler",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-042",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 390,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Marine Corps Air Station Futenma",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-043",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 348,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Kadena Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-044",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 400,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Camp Humphreys",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-045",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 657,
+        "chapters": 4,
+        "cores": [
+          20.000015258789062,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 4,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Army Garrison Daegu",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-046",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 655,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Army Garrison Yongsan-Casey",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-047",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 498,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Fleet Activities Chinhae",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-048",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 307,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Marine Corps Installation Camp Mujuk",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-049",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 327,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Osan Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-050",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 330,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Kunsan Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-051",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 342,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Antonio Bautista Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-052",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 305,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Basa Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-053",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 389,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Fort Magsaysay",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-054",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 407,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Lumbia Airport",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-055",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 373,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Benito Ebuen Air Base",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-056",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 348,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Naval Base Camilo Osias",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-057",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 357,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Lal-lo Airport",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-058",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 375,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 1,
+        "scrollWidth": 375,
+        "title": "Camp Melchor Dela",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-059",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 375,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 0,
+        "scrollWidth": 375,
+        "title": "Balabac Island",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-060",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 452,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Navy Region Center Singapore",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-061",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 343,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Royal Australian Air Force Base Darwin",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-062",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 318,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Robertson Barracks",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-063",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 388,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Royal Australian Air Force Base Tindal",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-064",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 508,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Naval Communications Station Harold E. Holt",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-065",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 352,
+        "chapters": 3,
+        "cores": [],
+        "mappedMembers": 0,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Naval Support Facility Diego Garcia",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-066",
+        "width": 375
+      }
+    ],
+    "multiSiteChecks": [
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 456,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Joint Base Elmendorf-Richardson",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-003",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 567,
+        "chapters": 4,
+        "cores": [
+          20,
+          19.999996185302734,
+          20
+        ],
+        "mappedMembers": 3,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Joint Base Lewis-McChord",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-007",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 660,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20.000015258789062
+        ],
+        "mappedMembers": 4,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Naval Base Kitsap",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-008",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 814,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 4,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Naval Station Everett",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-009",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 611,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 3,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Naval Base Ventura County",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-012",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 808,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 6,
+        "relationCount": 9,
+        "scrollWidth": 375,
+        "title": "Naval Base Coronado",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-013",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 955,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Naval Base Point Loma",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-015",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 610,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 3,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Joint Base Pearl Harbor-Hickam",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-024",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 674,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 4,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Marine Corps Base Hawaii",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-026",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 598,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Army Garrison-Kwajalein Atoll",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-031",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 738,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20.000015258789062
+        ],
+        "mappedMembers": 3,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Fleet Activities Sasebo",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-036",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 603,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 3,
+        "scrollWidth": 375,
+        "title": "Army Garrison Okinawa",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-041",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 702,
+        "chapters": 4,
+        "cores": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 5,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Marine Corps Base Camp Butler",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-042",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 657,
+        "chapters": 4,
+        "cores": [
+          20.000015258789062,
+          20,
+          20,
+          20
+        ],
+        "mappedMembers": 4,
+        "relationCount": 6,
+        "scrollWidth": 375,
+        "title": "Army Garrison Daegu",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-046",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 655,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 5,
+        "scrollWidth": 375,
+        "title": "Army Garrison Yongsan-Casey",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-047",
+        "width": 375
+      },
+      {
+        "approved": "画像来源审核通过",
+        "chapterChars": 508,
+        "chapters": 4,
+        "cores": [
+          20,
+          20
+        ],
+        "mappedMembers": 2,
+        "relationCount": 2,
+        "scrollWidth": 375,
+        "title": "Naval Communications Station Harold E. Holt",
+        "url": "http://127.0.0.1:4180/#/sites/crs-r47589-065",
+        "width": 375
+      }
+    ],
+    "profileAggregate": {
+      "count": 66,
+      "chapters": 214,
+      "members": 51,
+      "relations": 115,
+      "overflow": [],
+      "unapproved": [],
+      "wrongCoreSizes": []
+    },
+    "globe": {
+      "clusters": 1,
+      "markers": [
+        {
+          "height": 20,
+          "text": "41",
+          "width": 20
+        },
+        {
+          "height": 20,
+          "text": "44",
+          "width": 20
+        }
+      ],
+      "zoom": "91",
+      "selected": {
+        "coordinates": "26.3486°, 127.7744°",
+        "name": "Kadena Air Base"
+      },
+      "presentation": true,
+      "navy": {
+        "locatorCount": 17
+      },
+      "maxZoom": {
+        "clusters": 0,
+        "cores": [
+          {
+            "height": 20,
+            "text": "41",
+            "width": 20
+          },
+          {
+            "height": 20,
+            "text": "42",
+            "width": 20
+          },
+          {
+            "height": 20,
+            "text": "43",
+            "width": 20
+          },
+          {
+            "height": 20,
+            "text": "44",
+            "width": 20
+          }
+        ],
+        "zoom": "100"
+      }
+    },
+    "portable": {
+      "profiles": [
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Fort Wainwright",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-001",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Fort Greely",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-002",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 2,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Joint Base Elmendorf-Richardson",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-003",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Eielson Air Force Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-004",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Eareckson Air Station",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-005",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Clear Space Force Station",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-006",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 3,
+          "relations": 3,
+          "scroll": 375,
+          "title": "Joint Base Lewis-McChord",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-007",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 4,
+          "relations": 5,
+          "scroll": 375,
+          "title": "Naval Base Kitsap",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-008",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 4,
+          "relations": 6,
+          "scroll": 375,
+          "title": "Naval Station Everett",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-009",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Naval Air Station Whidbey Island",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-010",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Fairchild Air Force Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-011",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 3,
+          "relations": 3,
+          "scroll": 375,
+          "title": "Naval Base Ventura County",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-012",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 6,
+          "relations": 9,
+          "scroll": 375,
+          "title": "Naval Base Coronado",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-013",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Naval Base San Diego",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-014",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 2,
+          "relations": 6,
+          "scroll": 375,
+          "title": "Naval Base Point Loma",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-015",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Marine Corps Air Station Miramar",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-016",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Marine Corps Base Camp Pendleton",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-017",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Beale Air Force Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-018",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Travis Air Force Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-019",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Vandenberg Space Force Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-020",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Schofield Barracks",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-021",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Fort Shafter",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-022",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Wheeler Army Airfield",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-023",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 3,
+          "relations": 3,
+          "scroll": 375,
+          "title": "Joint Base Pearl Harbor-Hickam",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-024",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Pacific Missile Range Facility, Barking Sands",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-025",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 4,
+          "relations": 6,
+          "scroll": 375,
+          "title": "Marine Corps Base Hawaii",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-026",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Wake Island Airfield",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-027",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Naval Base Guam",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-028",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Marine Corps Base Camp Blaz",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-029",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Andersen Air Force Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-030",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 2,
+          "relations": 3,
+          "scroll": 375,
+          "title": "Army Garrison-Kwajalein Atoll",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-031",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Camp Zama",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-032",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Shariki Communications Site",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-033",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Kyogamisaki Communications Site",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-034",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Fleet Activities Yokosuka",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-035",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 3,
+          "relations": 5,
+          "scroll": 375,
+          "title": "Fleet Activities Sasebo",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-036",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Naval Air Facility Atsugi",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-037",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Marine Corps Air Station Iwakuni",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-038",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Yokota Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-039",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Misawa Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-040",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 2,
+          "relations": 3,
+          "scroll": 375,
+          "title": "Army Garrison Okinawa",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-041",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 5,
+          "relations": 5,
+          "scroll": 375,
+          "title": "Marine Corps Base Camp Butler",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-042",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Marine Corps Air Station Futenma",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-043",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Kadena Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-044",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Camp Humphreys",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-045",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 4,
+          "relations": 6,
+          "scroll": 375,
+          "title": "Army Garrison Daegu",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-046",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 2,
+          "relations": 5,
+          "scroll": 375,
+          "title": "Army Garrison Yongsan-Casey",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-047",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Fleet Activities Chinhae",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-048",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Marine Corps Installation Camp Mujuk",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-049",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Osan Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-050",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Kunsan Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-051",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Antonio Bautista Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-052",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Basa Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-053",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Fort Magsaysay",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-054",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Lumbia Airport",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-055",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Benito Ebuen Air Base",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-056",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Naval Base Camilo Osias",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-057",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Lal-lo Airport",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-058",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 1,
+          "scroll": 375,
+          "title": "Camp Melchor Dela",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-059",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 0,
+          "scroll": 375,
+          "title": "Balabac Island",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-060",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 3,
+          "scroll": 375,
+          "title": "Navy Region Center Singapore",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-061",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Royal Australian Air Force Base Darwin",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-062",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Robertson Barracks",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-063",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Royal Australian Air Force Base Tindal",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-064",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 4,
+          "mappedMembers": 2,
+          "relations": 2,
+          "scroll": 375,
+          "title": "Naval Communications Station Harold E. Holt",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-065",
+          "width": 375
+        },
+        {
+          "approved": "画像来源审核通过",
+          "chapters": 3,
+          "mappedMembers": 0,
+          "relations": 3,
+          "scroll": 375,
+          "title": "Naval Support Facility Diego Garcia",
+          "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/sites/crs-r47589-066",
+          "width": 375
+        }
+      ],
+      "resourceNames": [],
+      "errors": [],
+      "evidenceCount": 55,
+      "dialogOpen": true,
+      "dialogClosed": true,
+      "candidateRemoved": {
+        "links": [
+          "#/",
+          "#/map",
+          "#/sites",
+          "#/model",
+          "#/statistics"
+        ],
+        "title": "概览",
+        "url": "http://127.0.0.1:4181/%E8%BD%AF%E4%BB%B6/DTC2026_%E4%B8%80%E7%BA%A7GIS.html#/"
+      }
+    },
+    "portable_html_sha256": "ef50071fc2f2ea92791f4f58c391c7f2a3a923716bdb42b1a7258f213857f5f6",
+    "passed": true
+  },
+  "errors": []
+}

@@ -1,0 +1,45 @@
+
+> dtc-2026-web@0.1.0 prebuild
+> npm run data:sync && npm run data:verify
+
+
+> dtc-2026-web@0.1.0 data:sync
+> node scripts/sync-data.mjs
+
+synced 6 frontend data files
+
+> dtc-2026-web@0.1.0 data:verify
+> node scripts/verify-data.mjs
+
+data verification passed: sites=66, profiles=66, bsr=1626, evidence=3747, reviewed=66, approved=66, coordinate_evidence=18+1+47, locality=1, multi_site_mapped=16, mapped_components=51, areas=49
+
+> dtc-2026-web@0.1.0 build
+> vue-tsc -b && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 94 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                              0.48 kB │ gzip:   0.34 kB
+dist/assets/SiteDetailView-ce_mqBL6.css      1.27 kB │ gzip:   0.45 kB
+dist/assets/SpatialDetailMap-B7ghkrOu.css    1.66 kB │ gzip:   0.63 kB
+dist/assets/ModelView-BK0-Cojo.css           4.14 kB │ gzip:   1.01 kB
+dist/assets/MapView-BC4x4Qlq.css            14.12 kB │ gzip:   3.40 kB
+dist/assets/index-BZ4CL5Fg.css              22.26 kB │ gzip:   5.41 kB
+dist/assets/statistics-DG4d-pFA.js           0.42 kB │ gzip:   0.28 kB
+dist/assets/StatisticsView-Cuf1m7Ej.js       2.95 kB │ gzip:   1.52 kB
+dist/assets/SitesView-D4B0Umna.js            3.27 kB │ gzip:   1.57 kB
+dist/assets/OverviewView-CToONTtu.js         5.89 kB │ gzip:   2.70 kB
+dist/assets/SpatialDetailMap-LRnm3z5j.js     7.25 kB │ gzip:   3.33 kB
+dist/assets/labels-BfpTLEqC.js               7.26 kB │ gzip:   3.42 kB
+dist/assets/SiteDetailView-qZC2ou5x.js       7.69 kB │ gzip:   2.94 kB
+dist/assets/ModelView-DI05NFCY.js            8.06 kB │ gzip:   3.63 kB
+dist/assets/index-DwyvD9-F.js              123.84 kB │ gzip:  48.24 kB
+dist/assets/MapView-CuejmgLD.js            561.05 kB │ gzip: 146.96 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.12s
