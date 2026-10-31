@@ -1,0 +1,2 @@
+# 保持数据文件原始字节，确保跨 Windows 和 Linux 校验和一致。
+/public/data/* -text

@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url'
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const dataRoot = resolve(projectRoot, 'public/data')
-const outputRoot = resolve(projectRoot, '../DTC_2026_一级提交成果/软件')
+const outputRoot = resolve(projectRoot, 'DTC_2026_一级提交成果/软件')
 const files = ['frontend_meta.json', 'sites.geojson', 'profiles.json', 'bsr.csv', 'evidence.csv', 'source_registry.json', 'world_reference.geojson']
 const embedded = Object.fromEntries(files.map((file) => [file, readFileSync(resolve(dataRoot, file), 'utf8').replace(/^\uFEFF/, '')]))
 const meta = JSON.parse(embedded['frontend_meta.json'])

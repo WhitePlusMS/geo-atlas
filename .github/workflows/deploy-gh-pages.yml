@@ -29,15 +29,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: DTC_2026_Web/package-lock.json
 
       - name: Install dependencies
-        working-directory: DTC_2026_Web
         run: npm ci
 
-      # prebuild 同步相邻目录的数据并检查数据合同，然后进行 TypeScript 编译和 Vite 构建。
+      # prebuild 先检查数据合同和校验和，再进行 TypeScript 编译和 Vite 构建。
       - name: Build frontend
-        working-directory: DTC_2026_Web
         run: npm run build
 
       - name: Configure GitHub Pages
@@ -46,7 +43,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./DTC_2026_Web/dist
+          path: ./dist
 
       - name: Deploy to GitHub Pages
         id: deployment

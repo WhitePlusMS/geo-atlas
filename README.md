@@ -25,13 +25,13 @@
 
 ```text
 .
-├── .github/workflows/              # GitHub Pages 自动部署
-├── DTC_2026_Web/                   # 前端源码、配置与前端脚本
-│   ├── public/data/                # 世界地图底图；其余运行数据由同步脚本生成
-│   ├── scripts/                    # 数据同步、校验与布局检查
-│   └── src/                        # 页面、组件、服务、类型和状态
-├── DTC_2026_前端直接使用/          # 六份前端运行数据源文件
-└── GITHUB_DEPLOYMENT.md            # 仓库与部署操作说明
+├── .github/workflows/  # GitHub Pages 自动部署
+├── public/data/        # 运行数据、地图底图和校验和
+├── scripts/            # 数据校验和布局检查
+├── src/                # 页面、组件、服务、类型和状态
+├── package.json        # 依赖和运行命令
+├── vite.config.ts      # Vite 构建配置
+└── GITHUB_DEPLOYMENT.md
 ```
 
 本仓库包含网站运行所需的源码和数据。报名材料、比赛原始资料、本地研究归档、依赖、构建产物及生成的提交包不包含在本次公开范围内；忽略规则不会删除本机文件。
@@ -47,26 +47,24 @@
 在仓库根目录执行：
 
 ```bash
-cd DTC_2026_Web
 npm ci
 npm run dev
 ```
 
-按照终端输出的地址打开页面。`predev` 会先从相邻的 `DTC_2026_前端直接使用/` 同步六份数据并执行校验。请保持该目录与 `DTC_2026_Web/` 同级，不能只复制前端目录。
+按照终端输出的地址打开页面。`predev` 会先校验 `public/data/` 中的数据及校验和。
 
 构建生产版本：
 
 ```bash
-cd DTC_2026_Web
 npm ci
 npm run build
 ```
 
-`prebuild` 同样会先同步并校验数据，随后进行 TypeScript 检查和 Vite 构建；构建结果位于 `DTC_2026_Web/dist/`。可使用 `npm run preview` 在本机预览构建结果；它不是生产服务器。
+`prebuild` 同样会先校验数据，随后进行 TypeScript 检查和 Vite 构建；构建结果位于 `dist/`。可使用 `npm run preview` 在本机预览构建结果；它不是生产服务器。
 
 ## 数据与校验
 
-`DTC_2026_前端直接使用/` 中的以下六个文件是前端构建输入：
+`public/data/` 中的以下六个文件是前端构建输入：
 
 | 文件 | 用途 |
 | --- | --- |
@@ -77,22 +75,22 @@ npm run build
 | `source_registry.json` | 来源登记信息 |
 | `frontend_meta.json` | 前端元数据和数据审核统计 |
 
-同步脚本将上述文件复制到 `DTC_2026_Web/public/data/` 并生成校验和；这些副本不需要提交。`public/data/world_reference.geojson` 是独立的世界地图底图，不由同步脚本生成，需要保留在仓库中。
+`public/data/world_reference.geojson` 是世界地图底图，`.checksums.json` 保存六份数据的 SHA-256 校验和。七份数据文件和校验和均保留在仓库中；`.gitattributes` 保持原始字节，使 Windows 和 Linux 的校验结果一致。
 
-在 `DTC_2026_Web/` 中可以单独执行：
+在仓库根目录可以单独执行：
 
 ```bash
-npm run data:sync    # 同步运行数据并生成校验和
+npm run data:checksums # 确认数据变更后更新校验和
 npm run data:verify  # 校验数据、来源和校验和
 npm run map:check    # 检查地图标记布局
 npm run pages:check  # 检查空间视图和模型
 ```
 
-`map:check` 和 `pages:check` 读取同步后的本地数据，首次运行前先执行 `npm run data:sync`。前端数据中保留来源和审核记录；修改数据后应重新核对来源及审核状态。
+`map:check` 和 `pages:check` 直接读取仓库内的数据。修改数据后，应重新核对来源及审核状态，确认内容无误后运行 `npm run data:checksums`，并将数据和更新后的校验和一起提交；正常构建只验证校验和，不会自动覆盖它。
 
 ## GitHub Pages 部署
 
-项目的 [部署工作流](.github/workflows/deploy-gh-pages.yml) 在推送到 `mater`、`main` 或 `master` 时执行，也可以从 Actions 页面手动运行。流程安装依赖、同步并校验数据、构建前端，再将 `dist/` 发布到 GitHub Pages。
+项目的 [部署工作流](.github/workflows/deploy-gh-pages.yml) 在推送到 `mater`、`main` 或 `master` 时执行，也可以从 Actions 页面手动运行。流程安装依赖、校验数据、构建前端，再将 `dist/` 发布到 GitHub Pages。
 
 1. 在 GitHub 创建仓库，并按原有目录结构上传源码和构建所需数据。
 2. 打开仓库的 **Settings → Pages**，将 Source 设置为 **GitHub Actions**。

@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { ShapeUtils, Vector2 } from 'three'
 import Papa from 'papaparse'
 
-const root = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..')
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const packageRoot = resolve(root, 'DTC_2026_Level1_资料包')
 const read = (path) => readFileSync(resolve(packageRoot, path))
 const layer = JSON.parse(read('data/site_match_candidates.geojson'))

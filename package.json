@@ -4,13 +4,13 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "data:sync": "node scripts/sync-data.mjs",
+    "data:checksums": "node scripts/update-checksums.mjs",
     "data:verify": "node scripts/verify-data.mjs",
     "map:check": "node --experimental-strip-types scripts/check-globe-layout.mjs",
     "pages:check": "node --experimental-strip-types scripts/check-spatial-layout.mjs",
-    "predev": "npm run data:sync && npm run data:verify",
+    "predev": "npm run data:verify",
     "dev": "vite",
-    "prebuild": "npm run data:sync && npm run data:verify",
+    "prebuild": "npm run data:verify",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },

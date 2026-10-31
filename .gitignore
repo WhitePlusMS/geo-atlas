@@ -58,12 +58,4 @@
 /DTC_2026_前端直接使用/point_candidates.csv
 /DTC_2026_前端直接使用/site_location_review.csv
 
-# 这六份运行数据和校验和由 predev/prebuild 从相邻源数据目录同步生成。
-# world_reference.geojson 是独立底图，必须保留在仓库中。
-/DTC_2026_Web/public/data/sites.geojson
-/DTC_2026_Web/public/data/profiles.json
-/DTC_2026_Web/public/data/bsr.csv
-/DTC_2026_Web/public/data/evidence.csv
-/DTC_2026_Web/public/data/source_registry.json
-/DTC_2026_Web/public/data/frontend_meta.json
-/DTC_2026_Web/public/data/.checksums.json
+# public/data 是网站运行数据的唯一来源，包含底图和校验和，需要提交。
